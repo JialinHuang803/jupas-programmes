@@ -3,9 +3,11 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { schools, filterProgrammes, normalize } from "../assets/catalog.mjs";
 import { parseList, summarise, text } from "../scripts/update-data.mjs";
+import { Converter } from "../assets/vendor/opencc-t2cn.mjs";
 
 const data = JSON.parse(await readFile(new URL("../data/programmes.json", import.meta.url), "utf8"));
 const counts = { cityuhk: 60, hkbu: 23, lingnanu: 23, cuhk: 73, eduhk: 26, polyu: 47, hkust: 34, hku: 59 };
+const toSimplified = Converter({ from: "hk", to: "cn" });
 const fixture = `<table><tr><th class="c-no">Code</th></tr><tr>
 <td class="c-is">HKU</td><td class="c-no"><a href="/tc/programme/hku/JS6004">JS6004</a></td>
 <td class="c-fc">UGC-funded</td><td class="c-sn">BA(AS)</td>
@@ -66,6 +68,41 @@ test("all school filters, multi-word search, funding and empty queries behave co
   assert.deepEqual(filterProgrammes(data.programmes, { query: "no-such-programme-8675309" }), []);
   assert.deepEqual(filterProgrammes(data.programmes, { funding: "unknown" }), []);
   assert.equal(normalize(" ＪＳ６００４ "), "js6004");
+});
+
+test("simplified, traditional and mixed-script Chinese queries return identical nonempty results", () => {
+  const codes = (query, filters = {}) => filterProgrammes(data.programmes, { ...filters, query }).map((programme) => programme.code);
+  for (const [simplified, traditional] of [
+    ["计算机", "計算機"], ["护理", "護理"], ["建筑", "建築"], ["数据科学", "數據科學"],
+    ["岭南大学", "嶺南大學"], ["香港理工大学", "香港理工大學"], ["两项学士", "兩項學士"],
+  ]) {
+    assert.ok(codes(traditional).length > 0, traditional);
+    assert.deepEqual(codes(simplified), codes(traditional), simplified);
+    assert.equal(normalize(simplified), normalize(traditional), simplified);
+  }
+  assert.deepEqual(codes("计算機"), codes("計算機"));
+  assert.deepEqual(codes("计算机 engineering", { school: "hkust" }), codes("計算機 engineering", { school: "hkust" }));
+  assert.ok(codes("计算机 engineering", { school: "hkust" }).length > 0);
+  assert.deepEqual(codes("香港大学 JS6004"), ["JS6004"]);
+  assert.deepEqual(codes("无此课程8675309"), []);
+  assert.equal(data.programmes.find((programme) => programme.code === "JS6004").nameZh, "建築學文學士");
+});
+
+test("all 345 original names and summaries are equally searchable in simplified Chinese", () => {
+  for (const programme of data.programmes) {
+    for (const text of [programme.nameZh, programme.summary]) {
+      const traditional = filterProgrammes(data.programmes, { query: text }).map((item) => item.code);
+      const simplified = filterProgrammes(data.programmes, { query: toSimplified(text) }).map((item) => item.code);
+      assert.deepEqual(simplified, traditional, `${programme.code}: ${text}`);
+    }
+  }
+});
+
+test("cached search conversion reflects changes to programme text", () => {
+  const programme = { ...data.programmes[0] };
+  assert.deepEqual(filterProgrammes([programme], { query: "独有测试方向" }), []);
+  programme.nameZh = "獨有測試方向";
+  assert.deepEqual(filterProgrammes([programme], { query: "独有测试方向" }), [programme]);
 });
 
 test("official parser keeps Chinese and English titles separate and verifies all linked codes", () => {

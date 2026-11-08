@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prepare": "node scripts/prepare-search.mjs",
     "update-data": "node scripts/update-data.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test",
@@ -11,5 +12,8 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "opencc-js": "1.4.2"
   }
 }

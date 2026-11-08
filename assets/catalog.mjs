@@ -1,3 +1,8 @@
+import { Converter } from "./vendor/opencc-t2cn.mjs";
+
+const toSimplified = Converter({ from: "hk", to: "cn" });
+const searchTextCache = new WeakMap();
+
 export const schools = [
   { id: "cityuhk", short: "城大", name: "香港城市大學", en: "City University of Hong Kong", acronym: "CityUHK" },
   { id: "hkbu", short: "浸大", name: "香港浸會大學", en: "Hong Kong Baptist University", acronym: "HKBU" },
@@ -10,7 +15,20 @@ export const schools = [
 ];
 
 export function normalize(value) {
-  return value.normalize("NFKC").toLocaleLowerCase().replace(/\s+/g, " ").trim();
+  return toSimplified(value.normalize("NFKC")).toLocaleLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function searchText(programme) {
+  const institution = schools.find((item) => item.id === programme.school);
+  const source = [
+    programme.code, programme.nameZh, programme.nameEn, programme.summary,
+    programme.shortName, institution.name, institution.short, institution.en, institution.acronym,
+  ].join(" ");
+  const cached = searchTextCache.get(programme);
+  if (cached?.source === source) return cached.value;
+  const value = normalize(source);
+  searchTextCache.set(programme, { source, value });
+  return value;
 }
 
 export function filterProgrammes(programmes, { query = "", school = "all", funding = "all" } = {}) {
@@ -18,11 +36,7 @@ export function filterProgrammes(programmes, { query = "", school = "all", fundi
   return programmes.filter((programme) => {
     if (school !== "all" && programme.school !== school) return false;
     if (funding !== "all" && programme.funding !== funding) return false;
-    const institution = schools.find((item) => item.id === programme.school);
-    const haystack = normalize([
-      programme.code, programme.nameZh, programme.nameEn, programme.summary,
-      programme.shortName, institution.name, institution.short, institution.en, institution.acronym,
-    ].join(" "));
+    const haystack = searchText(programme);
     return terms.every((term) => haystack.includes(term));
   });
 }

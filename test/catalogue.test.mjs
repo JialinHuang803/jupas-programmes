@@ -4,6 +4,8 @@ import { readFile } from "node:fs/promises";
 import { schools, filterProgrammes, normalize } from "../assets/catalog.mjs";
 import { parseList, summarise, text } from "../scripts/update-data.mjs";
 import { Converter } from "../assets/vendor/opencc-t2cn.mjs";
+import { levelRank, matchesRequirements, requirementSubjects, validateRequirements } from "../assets/requirements.mjs";
+import { load } from "cheerio";
 
 const data = JSON.parse(await readFile(new URL("../data/programmes.json", import.meta.url), "utf8"));
 const counts = { cityuhk: 60, hkbu: 23, lingnanu: 23, cuhk: 73, eduhk: 26, polyu: 47, hkust: 34, hku: 59 };
@@ -15,7 +17,7 @@ const fixture = `<table><tr><th class="c-no">Code</th></tr><tr>
 </tr></table>`;
 
 test("2027/28 snapshot includes all 345 distinct official JS numbers from exactly eight schools", () => {
-  assert.equal(data.schemaVersion, 1);
+  assert.equal(data.schemaVersion, 2);
   assert.equal(data.admissionYear, "2027/28");
   assert.equal(data.summaryBasis, "official-programme-title");
   assert.equal(data.total, 345);
@@ -44,6 +46,59 @@ test("every record has faithful Chinese summary, original titles and matching of
     assert.equal(programme.url, `https://www.jupas.edu.hk/tc/programme/${programme.school}/${programme.code}`);
     assert.equal(programme.funding, "UGC-funded");
   }
+});
+
+test("all 345 programmes have validated, dated official requirement structures", () => {
+  assert.ok(Number.isFinite(Date.parse(data.requirementsCollectedAt)));
+  for (const programme of data.programmes) {
+    validateRequirements(programme.requirements);
+    assert.ok(Date.parse(programme.requirements.collectedAt) <= Date.parse(data.requirementsCollectedAt));
+    const rows = requirementSubjects(programme.requirements);
+    for (const row of rows) {
+      assert.doesNotMatch(row.subject, /\bNote\d*$/i);
+      if (/^\d+$/.test(row.minimum)) assert.ok(levelRank(row.minimum) !== null, `${programme.code}: unrecognised numeric level`);
+      assert.ok(matchesRequirements(programme.requirements, [{ section: row.section, subject: row.subject, minimum: row.minimum }]), `${programme.code}: unreachable official subject`);
+    }
+  }
+});
+
+test("the three core filters compare course thresholds, not applicant eligibility", () => {
+  const requirements = [
+    { section: "core", subject: "CHINESE LANGUAGE", minimum: "3" },
+    { section: "core", subject: "ENGLISH LANGUAGE", minimum: "3" },
+    { section: "core", subject: "MATHEMATICS COMPULSORY PART", minimum: "2" },
+  ];
+  const result = filterProgrammes(data.programmes, { requirements });
+  assert.ok(result.length > 0 && result.length < data.total);
+  assert.ok(result.some((programme) => programme.code === "JS1000"));
+  assert.ok(result.some((programme) => programme.code === "JS6004"));
+  assert.equal(filterProgrammes(data.programmes, { requirements: [] }).length, 345);
+  assert.deepEqual(filterProgrammes(data.programmes, { query: "JS1000", school: "cityuhk", requirements }).map((programme) => programme.code), ["JS1000"]);
+  const highMathematics = filterProgrammes(data.programmes, { requirements: [{ section: "core", subject: "MATHEMATICS COMPULSORY PART", minimum: "4" }] });
+  const lowMathematics = new Set(filterProgrammes(data.programmes, { requirements: [{ section: "core", subject: "MATHEMATICS COMPULSORY PART", minimum: "2" }] }).map((programme) => programme.code));
+  assert.ok(highMathematics.every((programme) => lowMathematics.has(programme.code)));
+  assert.ok(highMathematics.some((programme) => programme.code === "JS1000"));
+  for (const filter of requirements) {
+    const single = new Set(filterProgrammes(data.programmes, { requirements: [filter] }).map((programme) => programme.code));
+    assert.ok(result.every((programme) => single.has(programme.code)));
+  }
+});
+
+test("the filter UI provides only three fixed core subjects, each defaulting to unlimited", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  const $ = load(html);
+  const controls = $("#requirements-controls");
+  const selects = controls.find("select");
+  assert.deepEqual(selects.map((_, node) => $(node).attr("id")).get(), ["req-chinese", "req-english", "req-mathematics"]);
+  selects.each((_, node) => {
+    const select = $(node);
+    assert.equal(select.find("option").length, 1);
+    assert.equal(select.find("option").attr("value"), "");
+    assert.equal(select.find("option").text(), "不限");
+    assert.equal(controls.find(`label[for="${select.attr("id")}"]`).length, 1);
+  });
+  assert.doesNotMatch(controls.text(), /AND|CITIZENSHIP|Elective|ANY 2/);
+  assert.equal($("#add-rule, #requirements-preset, #requirement-rules").length, 0);
 });
 
 test("all 345 catalogue codes and original Chinese/English names are searchable", () => {

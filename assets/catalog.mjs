@@ -1,4 +1,5 @@
 import { Converter } from "./vendor/opencc-t2cn.mjs";
+import { matchesRequirements } from "./requirements.mjs";
 
 const toSimplified = Converter({ from: "hk", to: "cn" });
 const searchTextCache = new WeakMap();
@@ -31,11 +32,12 @@ function searchText(programme) {
   return value;
 }
 
-export function filterProgrammes(programmes, { query = "", school = "all", funding = "all" } = {}) {
+export function filterProgrammes(programmes, { query = "", school = "all", funding = "all", requirements = [] } = {}) {
   const terms = normalize(query).split(" ").filter(Boolean);
   return programmes.filter((programme) => {
     if (school !== "all" && programme.school !== school) return false;
     if (funding !== "all" && programme.funding !== funding) return false;
+    if (!matchesRequirements(programme.requirements, requirements)) return false;
     const haystack = searchText(programme);
     return terms.every((term) => haystack.includes(term));
   });

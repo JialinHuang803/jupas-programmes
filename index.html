@@ -56,6 +56,16 @@
           <div class="funding-filter"><label for="funding">資助類別</label><select id="funding" disabled><option value="all">所有類別</option></select></div>
         </div>
         <fieldset class="school-filter"><legend>選擇院校 <span>可配合關鍵字一起篩選</span></legend><div id="schools" class="school-options"><button type="button" disabled>正在載入八校列表…</button></div></fieldset>
+        <fieldset id="requirements-controls" class="requirements-controls" disabled>
+          <legend>必修科門檻 <span>Core Subjects</span></legend>
+          <div class="core-subject-filters">
+            <div class="core-subject-filter"><label for="req-chinese">中文<span lang="en">CHINESE LANGUAGE</span></label><select id="req-chinese"><option value="">不限</option></select></div>
+            <div class="core-subject-filter"><label for="req-english">英文<span lang="en">ENGLISH LANGUAGE</span></label><select id="req-english"><option value="">不限</option></select></div>
+            <div class="core-subject-filter"><label for="req-mathematics">數學（必修部分）<span lang="en">MATHEMATICS COMPULSORY PART</span></label><select id="req-mathematics"><option value="">不限</option></select></div>
+          </div>
+          <div class="core-filter-footer"><p class="requirements-help">篩選課程規定的最低門檻，不是輸入你的成績。例如「中文 ≥ 3」也包含官方要求中文 4 的課程。</p><button id="clear-rules" type="button" disabled>重設為不限</button></div>
+        </fieldset>
+        <p id="filter-message" class="filter-message" role="status" hidden></p>
       </form>
       <div class="results-heading">
         <p id="result-count" role="status" aria-live="polite" aria-atomic="true">正在載入課程…</p>
@@ -63,7 +73,7 @@
       </div>
       <p class="summary-note">中文速覽按官方課程名稱整理，並非官方課程簡介。課程內容、分流及入學要求，請以官方詳情為準。</p>
       <div id="error" class="state-panel" role="alert" hidden><span class="state-symbol" aria-hidden="true">!</span><h3>暫時無法讀取資料</h3><p id="error-message">請檢查網絡連線後重試。</p><button id="retry" type="button">重新載入</button></div>
-      <div id="empty" class="state-panel" hidden><span class="state-symbol" aria-hidden="true">⌕</span><h3>還未找到這個方向</h3><p>試試較短的關鍵字、英文名稱，或選擇所有院校。</p><button id="empty-clear" type="button">清空篩選，重新探索 <span aria-hidden="true">↗</span></button></div>
+      <div id="empty" class="state-panel" hidden><span class="state-symbol" aria-hidden="true">⌕</span><h3>還未找到這個方向</h3><p>試試較短的關鍵字、英文名稱、所有院校，或移除部分門檻條件。</p><button id="empty-clear" type="button">清空篩選，重新探索 <span aria-hidden="true">↗</span></button></div>
       <div id="results" class="programme-grid" aria-label="課程搜尋結果" aria-busy="true"></div>
       <div id="load-more-panel" class="load-more-panel" hidden><p id="shown-count"></p><button id="load-more" type="button">繼續翻閱 <span aria-hidden="true">↓</span></button></div>
       <noscript><p class="state-panel">課程檢索需要 JavaScript。請啟用 JavaScript，或直接查看 <a href="https://www.jupas.edu.hk/tc/programmes-offered/">JUPAS 官方課程網站</a>。</p></noscript>
@@ -73,7 +83,7 @@
       <div><p class="eyebrow">A NOTE TO THE READER</p><h2 id="about-title">一份起點，<br>不是標準答案。</h2></div>
       <div class="about-copy">
         <p>這是獨立製作的升學資料工具，並非 JUPAS 或任何院校的官方網站。收錄香港八所大學於 JUPAS 列出的所有獨立 JS 申請編號，不包括香港都會大學及其他 SSSDP 院校；課程組合中的選項不另作計數。</p>
-        <p>中文速覽僅重新整理官方名稱中列明的學位及方向，不代表實際教學內容，也不推測就業前景或錄取分數。官方詳情頁提供課程簡介、入學要求及院校網站入口；如有差異，以院校網站為準。</p>
+        <p>中文速覽僅重新整理官方名稱中列明的學位及方向，不代表實際教學內容，也不推測就業前景或錄取分數。入學門檻來自各課程官方 Programme Entrance Requirements 表格；標明與一般要求相同時，才採用該頁 General Entrance Requirements。數值篩選不包括官方文字備註、豁免、作品集或面試等其他條件，不代表申請資格或錄取保證；如有差異，以院校網站為準。</p>
         <details><summary>資料來源、採集日期與統計口徑 <span aria-hidden="true">＋</span></summary><div id="sources"><p>資料載入後將顯示各校官方來源。</p></div></details>
         <p class="privacy-note">搜尋在你的瀏覽器內完成，不上傳查詢、不使用 cookies 或分析追蹤。篩選會保存在網址中；分享網址時也會分享關鍵字。<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub 託管私隱政策 ↗</a></p>
       </div>

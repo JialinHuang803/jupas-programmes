@@ -1,12 +1,20 @@
 import { schools, filterProgrammes } from "./catalog.mjs";
+import { levelRank, subjectKey, validateRequirements } from "./requirements.mjs";
 
 const pageSize = 24;
 const $ = (id) => document.getElementById(id);
-const ui = Object.fromEntries(["query", "funding", "schools", "filters", "clear", "results", "result-count", "data-stamp", "empty", "empty-clear", "error", "error-message", "retry", "load-more", "load-more-panel", "shown-count", "sources"].map((id) => [id, $(id)]));
+const coreSubjects = [
+  { id: "req-chinese", subject: "CHINESE LANGUAGE" },
+  { id: "req-english", subject: "ENGLISH LANGUAGE" },
+  { id: "req-mathematics", subject: "MATHEMATICS COMPULSORY PART" },
+];
+const coreMinimums = ["1", "2", "3", "4", "5", "5*", "5**"];
+const ui = Object.fromEntries(["query", "funding", "schools", "filters", "clear", "results", "result-count", "data-stamp", "empty", "empty-clear", "error", "error-message", "retry", "load-more", "load-more-panel", "shown-count", "sources", "requirements-controls", "clear-rules", "filter-message", ...coreSubjects.map(({ id }) => id)].map((id) => [id, $(id)]));
 let data;
 let selectedSchool = "all";
 let visibleCount = pageSize;
 let searchTimer;
+let requirementFilters = [];
 const fundingLabels = { "UGC-funded": "教資會資助", "Self-financing": "自資", "SSSDP": "SSSDP 資助" };
 const fundingLabel = (value) => fundingLabels[value] || value;
 
@@ -26,7 +34,7 @@ function externalLink(label, url, className) {
 }
 
 function validateData(snapshot) {
-  if (snapshot.schemaVersion !== 1 || snapshot.summaryBasis !== "official-programme-title"
+  if (snapshot.schemaVersion !== 2 || !Number.isFinite(Date.parse(snapshot.requirementsCollectedAt)) || snapshot.summaryBasis !== "official-programme-title"
     || !/^\d{4}\/\d{2}$/.test(snapshot.admissionYear) || !Number.isFinite(Date.parse(snapshot.collectedAt))
     || !Array.isArray(snapshot.programmes) || snapshot.total !== snapshot.programmes.length || !snapshot.total
     || !Array.isArray(snapshot.sources) || snapshot.sources.length !== schools.length) {
@@ -41,6 +49,7 @@ function validateData(snapshot) {
       throw new Error("課程記錄或官方連結驗證失敗，請通知網站維護者。");
     }
     codes.add(programme.code);
+    validateRequirements(programme.requirements);
   }
   for (const school of schools) {
     const source = snapshot.sources.find((item) => item.school === school.id);
@@ -58,16 +67,86 @@ function readUrl() {
   selectedSchool = schools.some((item) => item.id === school) ? school : "all";
   const funding = params.get("funding");
   ui.funding.value = [...ui.funding.options].some((option) => option.value === funding) ? funding : "all";
+  requirementFilters = [];
+  ui["filter-message"].hidden = true;
+  if (params.has("req")) {
+    try {
+      const filters = JSON.parse(params.get("req"));
+      if (!Array.isArray(filters) || filters.length > coreSubjects.length || filters.some((filter) => !filter || filter.section !== "core"
+        || typeof filter.subject !== "string" || typeof filter.minimum !== "string"
+        || !coreSubjects.some(({ subject }) => subject === subjectKey(filter.subject)) || !coreMinimums.includes(filter.minimum))
+        || new Set(filters.map(({ subject }) => subjectKey(subject))).size !== filters.length) {
+        throw new Error("Unknown entrance requirement filter in URL");
+      }
+      requirementFilters = filters.map(({ section, subject, minimum }) => ({ section, subject: subjectKey(subject), minimum }));
+    } catch (error) {
+      console.warn("Could not restore entrance requirement filters:", error);
+      ui["filter-message"].textContent = "網址中的門檻條件無法識別，目前僅支援中文、英文及數學必修部分。未套用門檻篩選，請重新設定；其他搜尋及院校條件已保留。";
+      ui["filter-message"].hidden = false;
+    }
+  }
+  syncCoreControls();
 }
 
 function updateUrl() {
   const url = new URL(location.href);
-  const values = { q: ui.query.value.trim(), school: selectedSchool === "all" ? "" : selectedSchool, funding: ui.funding.value === "all" ? "" : ui.funding.value };
+  const values = { q: ui.query.value.trim(), school: selectedSchool === "all" ? "" : selectedSchool, funding: ui.funding.value === "all" ? "" : ui.funding.value, req: requirementFilters.length ? JSON.stringify(requirementFilters) : "" };
   for (const [key, value] of Object.entries(values)) {
     if (value) url.searchParams.set(key, value);
     else url.searchParams.delete(key);
   }
   if (url.href !== location.href) history.replaceState(null, "", url);
+}
+
+function requirementTree(node, url) {
+  if (node.kind === "subject") {
+    const row = element("div", "requirement-row");
+    if (node.label) row.title = node.label;
+    const name = element("span", "", node.subject);
+    name.lang = "en";
+    for (const reference of node.references) {
+      const superscript = element("sup");
+      const link = externalLink(reference, url);
+      link.setAttribute("aria-label", `${node.subject}：官方備註 ${reference}（新分頁）`);
+      superscript.append(link);
+      name.append(superscript);
+    }
+    row.append(name, element("strong", "", levelRank(node.minimum) === null ? node.minimum : `≥ ${node.minimum}`));
+    return row;
+  }
+  const wrapper = element("div", `requirement-group requirement-${node.kind}`);
+  const label = node.kind === "any" ? "擇一（OR）" : node.kind === "choose" ? `以下擇 ${node.count} 項` : "同時符合（AND）";
+  wrapper.append(element("p", "requirement-logic", label));
+  if (node.label && !/^(One|Two|Three|Any|\d+) of the following/i.test(node.label)) {
+    const sourceLabel = element("p", "requirement-source-label", node.label);
+    sourceLabel.lang = "en";
+    wrapper.append(sourceLabel);
+  }
+  for (const [index, child] of node.children.entries()) {
+    if (node.kind === "any" && index > 0) wrapper.append(element("span", "requirement-or", "OR"));
+    wrapper.append(requirementTree(child, url));
+  }
+  return wrapper;
+}
+
+function requirementCard(programme) {
+  const requirements = programme.requirements;
+  const panel = element("section", "card-requirements");
+  const heading = element("h4", "", "Programme Entrance Requirements");
+  heading.lang = "en";
+  panel.append(heading, element("p", "requirement-basis", requirements.basis === "general" ? "官方標明：與 General Entrance Requirements 相同" : "課程專屬要求 · 官方表格"));
+  if (requirements.status === "not-tabulated") {
+    panel.append(element("p", "requirements-help", "官方未提供可結構化的課程門檻表格，請查閱官方詳情；不納入門檻篩選。"));
+  } else {
+    for (const [key, label] of [["core", "Core Subjects · 必修科"], ["elective", "Elective Subject(s) · 選修科"]]) {
+      const section = element("div", "requirement-section");
+      section.append(element("h5", "", label), requirementTree(requirements[key], programme.url));
+      panel.append(section);
+    }
+  }
+  const notes = externalLink(requirements.noteCount ? "官方備註／例外（未納入數值篩選） ↗" : "完整入學要求及其他條件 ↗", programme.url, "requirement-notes");
+  panel.append(notes);
+  return panel;
 }
 
 function card(programme) {
@@ -98,17 +177,18 @@ function card(programme) {
     fullNames.append(label, element("p", "", programme.nameZh), fullEnglish);
     article.append(fullNames);
   }
-  article.append(summary, bottom);
+  article.append(summary, requirementCard(programme), bottom);
   return article;
 }
 
 function render({ append = false, syncUrl = true } = {}) {
   if (!data) return;
-  const matches = filterProgrammes(data.programmes, { query: ui.query.value, school: selectedSchool, funding: ui.funding.value });
+  const matches = filterProgrammes(data.programmes, { query: ui.query.value, school: selectedSchool, funding: ui.funding.value, requirements: requirementFilters });
   const previousCount = ui.results.children.length;
   for (const button of ui.schools.querySelectorAll("button")) button.setAttribute("aria-pressed", String(button.dataset.school === selectedSchool));
   ui["result-count"].replaceChildren(document.createTextNode("找到 "), element("strong", "", String(matches.length)), document.createTextNode(" 個課程"));
-  ui.clear.disabled = !ui.query.value && selectedSchool === "all" && ui.funding.value === "all";
+  ui.clear.disabled = !ui.query.value && selectedSchool === "all" && ui.funding.value === "all" && !requirementFilters.length && ui["filter-message"].hidden;
+  ui["clear-rules"].disabled = !requirementFilters.length && ui["filter-message"].hidden;
   ui.empty.hidden = matches.length > 0;
   if (!append) ui.results.replaceChildren();
   const fragment = document.createDocumentFragment();
@@ -118,7 +198,7 @@ function render({ append = false, syncUrl = true } = {}) {
   ui["load-more-panel"].hidden = matches.length <= visibleCount;
   ui["shown-count"].textContent = `已翻閱 ${Math.min(visibleCount, matches.length)} / ${matches.length} 個課程`;
   if (syncUrl) updateUrl();
-  if (append) ui.results.children[previousCount]?.querySelector("a").focus({ preventScroll: true });
+  if (append) ui.results.children[previousCount]?.querySelector(".card-bottom a").focus({ preventScroll: true });
 }
 
 function changed() {
@@ -131,11 +211,24 @@ function clearFilters() {
   ui.query.value = "";
   selectedSchool = "all";
   ui.funding.value = "all";
+  requirementFilters = [];
+  ui["filter-message"].hidden = true;
+  syncCoreControls();
   changed();
   ui.query.focus();
 }
 
 function buildFilters() {
+  for (const { id } of coreSubjects) {
+    const unlimited = element("option", "", "不限");
+    unlimited.value = "";
+    ui[id].replaceChildren(unlimited);
+    for (const minimum of coreMinimums) {
+      const option = element("option", "", `≥ ${minimum}`);
+      option.value = minimum;
+      ui[id].append(option);
+    }
+  }
   ui.schools.replaceChildren();
   for (const school of [{ id: "all", short: "全部院校", name: "全部院校" }, ...schools]) {
     const count = school.id === "all" ? data.total : data.sources.find((source) => source.school === school.id).count;
@@ -157,6 +250,12 @@ function buildFilters() {
   }
 }
 
+function syncCoreControls() {
+  for (const { id, subject } of coreSubjects) {
+    ui[id].value = requirementFilters.find((filter) => filter.subject === subject)?.minimum || "";
+  }
+}
+
 function showSources() {
   const date = new Intl.DateTimeFormat("zh-Hant", { year: "numeric", month: "long", day: "numeric", timeZone: "Asia/Hong_Kong" }).format(new Date(data.collectedAt));
   ui["data-stamp"].replaceChildren(document.createTextNode(`${data.admissionYear} 入學 · ${data.total} 個課程`), element("br"), document.createTextNode(`官方列表採集於 ${date}`));
@@ -171,6 +270,7 @@ function showSources() {
     element("p", "", `採集時間：${data.collectedAt}（UTC）。以各校完整官方列表的獨立 JS 編號核對，共 ${data.total} 個。這是資料快照，官方後續可能修改。`),
     externalLink(`${data.admissionYear} 入學年度：官方申請日期 ↗`, data.cycleSource),
     list,
+    element("p", "", `入學要求表格更新完成於 ${data.requirementsCollectedAt}（UTC）。各課程的實際採集時間保存於資料快照。官方文字備註及例外請從各卡片連結查看，不用數值推測。`),
   );
 }
 
@@ -179,6 +279,7 @@ async function load() {
   ui.retry.disabled = true;
   ui["result-count"].textContent = "正在載入課程…";
   ui.results.setAttribute("aria-busy", "true");
+  ui["requirements-controls"].disabled = true;
   try {
     const response = await fetch(new URL("../data/programmes.json", import.meta.url), { signal: AbortSignal.timeout(20_000) });
     if (!response.ok) throw new Error(`課程資料讀取失敗（HTTP ${response.status}），請稍後重試。`);
@@ -190,10 +291,14 @@ async function load() {
     readUrl();
     ui.query.disabled = false;
     ui.funding.disabled = false;
+    ui["requirements-controls"].disabled = false;
     render();
   } catch (error) {
     console.error("Programme catalogue could not load:", error);
     data = undefined;
+    ui.query.disabled = true;
+    ui.funding.disabled = true;
+    ui.clear.disabled = true;
     ui.results.replaceChildren();
     ui.results.setAttribute("aria-busy", "false");
     ui.error.hidden = false;
@@ -210,6 +315,19 @@ async function load() {
 ui.filters.addEventListener("submit", (event) => { event.preventDefault(); changed(); });
 ui.query.addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(changed, 120); });
 ui.funding.addEventListener("change", changed);
+for (const { id } of coreSubjects) {
+  ui[id].addEventListener("change", () => {
+    requirementFilters = coreSubjects.filter(({ id }) => ui[id].value).map(({ id, subject }) => ({ section: "core", subject, minimum: ui[id].value }));
+    ui["filter-message"].hidden = true;
+    changed();
+  });
+}
+ui["clear-rules"].addEventListener("click", () => {
+  requirementFilters = [];
+  ui["filter-message"].hidden = true;
+  syncCoreControls();
+  changed();
+});
 ui.clear.addEventListener("click", clearFilters);
 ui["empty-clear"].addEventListener("click", clearFilters);
 ui.retry.addEventListener("click", load);

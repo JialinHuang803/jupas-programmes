@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "node scripts/prepare-search.mjs",
     "update-data": "node scripts/update-data.mjs",
+    "update-requirements": "node scripts/update-requirements.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test",
     "start": "node scripts/serve.mjs"
@@ -14,6 +15,7 @@
     "node": ">=22"
   },
   "devDependencies": {
+    "cheerio": "1.2.0",
     "opencc-js": "1.4.2"
   }
 }

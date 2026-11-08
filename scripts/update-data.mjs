@@ -1,8 +1,9 @@
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { schools } from "../assets/catalog.mjs";
+import { checkRobots, get, origin, pause } from "./jupas-client.mjs";
+import { cacheArgument, collectRequirements } from "./update-requirements.mjs";
 
-const origin = "https://www.jupas.edu.hk";
 const entities = { amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ", ndash: "–", mdash: "—", rsquo: "’", lsquo: "‘", rdquo: "”", ldquo: "“", hellip: "…" };
 
 export function text(html) {
@@ -70,24 +71,8 @@ export function parseList(html, school) {
   return programmes;
 }
 
-async function get(url) {
-  const response = await fetch(url, {
-    headers: { "User-Agent": "jupas-programmes/1.0 (public educational catalogue; https://github.com/JialinHuang803/jupas-programmes)" },
-    signal: AbortSignal.timeout(45_000),
-  });
-  if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
-  return response.text();
-}
-
 async function main() {
-  const robots = await fetch(`${origin}/robots.txt`, { signal: AbortSignal.timeout(30_000) });
-  if (robots.ok) {
-    const rules = await robots.text();
-    // Require human review rather than guessing whether any restrictive rule applies to this collector.
-    if (/^\s*(Disallow|Crawl-delay):\s*\S+/im.test(rules)) throw new Error("robots.txt has restrictions; review them before collecting");
-  } else if (robots.status !== 404) {
-    throw new Error(`robots.txt: HTTP ${robots.status}; collection stopped`);
-  }
+  await checkRobots();
   const cycleUrl = `${origin}/tc/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines/`;
   const cycleHtml = await get(cycleUrl);
   const cycleText = cycleHtml.replace(/<[^>]*>/g, "").replace(/\s+/g, "");
@@ -98,7 +83,7 @@ async function main() {
   const programmes = [];
   const sources = [];
   for (const school of schools) {
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    await pause();
     const url = `${origin}/tc/programme/${school.id}/`;
     const records = parseList(await get(url), school.id);
     programmes.push(...records);
@@ -107,10 +92,12 @@ async function main() {
   }
   if (new Set(programmes.map((item) => item.code)).size !== programmes.length) throw new Error("Duplicate JS code across institutions");
   programmes.sort((a, b) => a.code.localeCompare(b.code));
+  const admissionYear = `${year}/${String(year + 1).slice(-2)}`;
+  const enriched = await collectRequirements(programmes, admissionYear, cacheArgument());
   const data = {
-    schemaVersion: 1, admissionYear: `${year}/${String(year + 1).slice(-2)}`,
-    cycleSource: cycleUrl, collectedAt, total: programmes.length,
-    summaryBasis: "official-programme-title", sources, programmes,
+    schemaVersion: 2, admissionYear, requirementsCollectedAt: new Date().toISOString(),
+    cycleSource: cycleUrl, collectedAt, total: enriched.length,
+    summaryBasis: "official-programme-title", sources, programmes: enriched,
   };
   const directory = new URL("../data/", import.meta.url);
   await mkdir(directory, { recursive: true });

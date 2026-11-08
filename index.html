@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183f35">
+  <meta name="description" content="一次探索香港八所大學的 JUPAS 課程。查看中文速覽、搜尋中英文名稱或 JS 編號，並前往官方課程詳情。">
+  <title>選科資料冊 — 香港八校 JUPAS 課程檢索</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalogue">跳至課程檢索</a>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="選科資料冊首頁">
+      <svg aria-hidden="true" viewBox="0 0 36 36"><path d="M18 3v30M3 18h30M7.4 7.4l21.2 21.2M7.4 28.6 28.6 7.4"/><circle cx="18" cy="18" r="6"/></svg>
+      <span>選科資料冊<small>THE PROGRAMME EDIT</small></span>
+    </a>
+    <nav aria-label="主導覽"><a href="#catalogue">探索課程 <span aria-hidden="true">↗</span></a><a href="#about">關於資料 <span aria-hidden="true">↗</span></a></nav>
+    <span class="edition">香港八校 · JUPAS</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> 給正在尋找方向的你 <span class="issue">VOL. 01 / HONG KONG</span></p>
+        <h1 id="hero-title">下一站，<br>讀出<span class="serif-accent">你的方向。</span></h1>
+        <p class="intro">八所大學，一本資料冊。<br class="mobile-break">從感興趣的課程開始，慢慢找到自己的選擇。</p>
+        <a class="hero-link" href="#catalogue">翻開課程目錄 <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="paper-back"></div>
+        <div class="index-sheet">
+          <div class="sheet-top"><span>FIELD NOTES</span><span>HK / 08</span></div>
+          <div class="orbit"><svg viewBox="0 0 180 180"><circle cx="90" cy="90" r="76"/><ellipse cx="90" cy="90" rx="34" ry="76" transform="rotate(35 90 90)"/><ellipse cx="90" cy="90" rx="34" ry="76" transform="rotate(-35 90 90)"/><path d="M14 90h152M90 14v152"/><circle class="orbit-point" cx="135" cy="29" r="6"/></svg><span>知<br>向</span></div>
+          <div class="sheet-bottom"><span>不同的起點<br>不止一種可能</span><span class="sheet-number">08<small>UNIVERSITIES</small></span></div>
+        </div>
+        <div class="paper-tab">YOUR NEXT CHAPTER ↗</div>
+      </div>
+    </section>
+
+    <section id="catalogue" class="catalogue" aria-labelledby="catalogue-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE CATALOGUE / 課程目錄</p><h2 id="catalogue-title">從這裡，開始探索</h2></div>
+        <p class="data-stamp" id="data-stamp">正在讀取官方資料快照…</p>
+      </div>
+      <form id="filters" class="filters" role="search" aria-label="搜尋及篩選課程">
+        <div class="search-row">
+          <div class="search-box">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+            <label class="sr-only" for="query">搜尋課程名稱、中文速覽或 JS 編號</label>
+            <input id="query" type="search" placeholder="試試「建築」、business 或 JS6004" autocomplete="off" disabled>
+            <kbd aria-hidden="true">/</kbd>
+          </div>
+          <div class="funding-filter"><label for="funding">資助類別</label><select id="funding" disabled><option value="all">所有類別</option></select></div>
+        </div>
+        <fieldset class="school-filter"><legend>選擇院校 <span>可配合關鍵字一起篩選</span></legend><div id="schools" class="school-options"><button type="button" disabled>正在載入八校列表…</button></div></fieldset>
+      </form>
+      <div class="results-heading">
+        <p id="result-count" role="status" aria-live="polite" aria-atomic="true">正在載入課程…</p>
+        <div><span class="sort-note">按 JS 編號排列</span><button id="clear" type="button" disabled>清空篩選 <span aria-hidden="true">↺</span></button></div>
+      </div>
+      <p class="summary-note">中文速覽按官方課程名稱整理，並非官方課程簡介。課程內容、分流及入學要求，請以官方詳情為準。</p>
+      <div id="error" class="state-panel" role="alert" hidden><span class="state-symbol" aria-hidden="true">!</span><h3>暫時無法讀取資料</h3><p id="error-message">請檢查網絡連線後重試。</p><button id="retry" type="button">重新載入</button></div>
+      <div id="empty" class="state-panel" hidden><span class="state-symbol" aria-hidden="true">⌕</span><h3>還未找到這個方向</h3><p>試試較短的關鍵字、英文名稱，或選擇所有院校。</p><button id="empty-clear" type="button">清空篩選，重新探索 <span aria-hidden="true">↗</span></button></div>
+      <div id="results" class="programme-grid" aria-label="課程搜尋結果" aria-busy="true"></div>
+      <div id="load-more-panel" class="load-more-panel" hidden><p id="shown-count"></p><button id="load-more" type="button">繼續翻閱 <span aria-hidden="true">↓</span></button></div>
+      <noscript><p class="state-panel">課程檢索需要 JavaScript。請啟用 JavaScript，或直接查看 <a href="https://www.jupas.edu.hk/tc/programmes-offered/">JUPAS 官方課程網站</a>。</p></noscript>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">A NOTE TO THE READER</p><h2 id="about-title">一份起點，<br>不是標準答案。</h2></div>
+      <div class="about-copy">
+        <p>這是獨立製作的升學資料工具，並非 JUPAS 或任何院校的官方網站。收錄香港八所大學於 JUPAS 列出的所有獨立 JS 申請編號，不包括香港都會大學及其他 SSSDP 院校；課程組合中的選項不另作計數。</p>
+        <p>中文速覽僅重新整理官方名稱中列明的學位及方向，不代表實際教學內容，也不推測就業前景或錄取分數。官方詳情頁提供課程簡介、入學要求及院校網站入口；如有差異，以院校網站為準。</p>
+        <details><summary>資料來源、採集日期與統計口徑 <span aria-hidden="true">＋</span></summary><div id="sources"><p>資料載入後將顯示各校官方來源。</p></div></details>
+        <p class="privacy-note">搜尋在你的瀏覽器內完成，不上傳查詢、不使用 cookies 或分析追蹤。篩選會保存在網址中；分享網址時也會分享關鍵字。<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub 託管私隱政策 ↗</a></p>
+      </div>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="./">選科資料冊 <span>THE PROGRAMME EDIT</span></a><p>保持好奇，方向會慢慢清晰。</p><a href="https://github.com/JialinHuang803/jupas-programmes" target="_blank" rel="noopener noreferrer">資料與開源程式 ↗</a></footer>
+</body>
+</html>

@@ -1,0 +1,3502 @@
+{
+  "schemaVersion": 1,
+  "admissionYear": "2027/28",
+  "cycleSource": "https://www.jupas.edu.hk/tc/application-procedures/application-other-submission-deadline/application-key-dates-and-deadlines/",
+  "collectedAt": "2026-11-08T08:47:26.770Z",
+  "total": 345,
+  "summaryBasis": "official-programme-title",
+  "sources": [
+    {
+      "school": "cityuhk",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/",
+      "count": 60
+    },
+    {
+      "school": "hkbu",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/",
+      "count": 23
+    },
+    {
+      "school": "lingnanu",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/",
+      "count": 23
+    },
+    {
+      "school": "cuhk",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/",
+      "count": 73
+    },
+    {
+      "school": "eduhk",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/",
+      "count": 26
+    },
+    {
+      "school": "polyu",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/",
+      "count": 47
+    },
+    {
+      "school": "hkust",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/",
+      "count": 34
+    },
+    {
+      "school": "hku",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/",
+      "count": 59
+    }
+  ],
+  "programmes": [
+    {
+      "code": "JS1000",
+      "school": "cityuhk",
+      "nameZh": "理學士(計算金融及金融科技) (專修：計算金融 / 金融科技)",
+      "nameEn": "BSc Computational Finance and Financial Technology (Streams: Computational Finance / Financial Technology)",
+      "shortName": "BScCFFT",
+      "funding": "UGC-funded",
+      "summary": "方向：計算金融及金融科技；專修：計算金融 / 金融科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1000"
+    },
+    {
+      "code": "JS1001",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(環球商業) (特點: 三次海外交流 / 美國哥倫比亞大學雙聯學士學位 / 海外暑期及遊學課程 / 商業諮詢課程 / 獎學金及資助)",
+      "nameEn": "BBA Global Business (Features: 3 Exchanges/Joint Bachelor’s Degree Program with Columbia University (US)/Overseas Summer School & Study Tour/Business Consultancy Project/Scholarship and Sponsorship)",
+      "shortName": "BBAGBU",
+      "funding": "UGC-funded",
+      "summary": "方向：環球商業。屬學士課程。名稱列明特色：三次海外交流、美國哥倫比亞大學雙聯學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1001"
+    },
+    {
+      "code": "JS1002",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(會計) (專修: 專業會計 / 環境，社會，治理和科技)",
+      "nameEn": "BBA Accountancy (Streams: Professional Accounting / ESG and Tech)",
+      "shortName": "BBAAC",
+      "funding": "UGC-funded",
+      "summary": "方向：會計；專修: 專業會計 / 環境，社會，治理和科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1002"
+    },
+    {
+      "code": "JS1005",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士 (管理學) (專修 : 人力資源管理 / 策略及國際管理 )",
+      "nameEn": "BBA Management (Streams: Human Resources Management / Strategy and International Management)",
+      "shortName": "BBAMGMT",
+      "funding": "UGC-funded",
+      "summary": "方向：管理學；專修 : 人力資源管理 / 策略及國際管理。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1005"
+    },
+    {
+      "code": "JS1007",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(市場學) (專修: 環球市場營銷 / 營銷數據分析)",
+      "nameEn": "BBA Marketing (Streams: Global Marketing / Marketing Analytics)",
+      "shortName": "BBAMKT",
+      "funding": "UGC-funded",
+      "summary": "方向：市場學；專修: 環球市場營銷 / 營銷數據分析。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1007"
+    },
+    {
+      "code": "JS1012",
+      "school": "cityuhk",
+      "nameZh": "經濟及金融 [主修: 工商管理學士(商業經濟) / 工商管理學士(金融)]",
+      "nameEn": "Economics and Finance (Majors: BBA Business Economics / BBA Finance)",
+      "shortName": "EF",
+      "funding": "UGC-funded",
+      "summary": "方向：商業經濟；金融。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1012"
+    },
+    {
+      "code": "JS1013",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(商業經濟) (特點: 經濟理論 / 國際經濟 / 經濟與商業預測 / 定量分析)",
+      "nameEn": "BBA Business Economics (Features: Economic Theory / International Economics / Economic and Business Forecasting / Quantitative Analysis)",
+      "shortName": "BBABE",
+      "funding": "UGC-funded",
+      "summary": "方向：商業經濟。屬學士課程。名稱列明特色：經濟理論、國際經濟。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1013"
+    },
+    {
+      "code": "JS1014",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(金融) (特點: 投資分析 / 金融市場 / 公司金融/ 風險管理 / 交易室工作坊)",
+      "nameEn": "BBA Finance (Features: Investment Analysis / Financial Markets / Corporate Finance / Risk Management / Trading Room Workshop)",
+      "shortName": "BBAFIN",
+      "funding": "UGC-funded",
+      "summary": "方向：金融。屬學士課程。名稱列明特色：投資分析、金融市場。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1014"
+    },
+    {
+      "code": "JS1017",
+      "school": "cityuhk",
+      "nameZh": "智能資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(商業人工智能)]",
+      "nameEn": "Intelligent Information Systems [Majors: BBA Global Business Systems Management / BBA Artificial Intelligence in Business]",
+      "shortName": "IIS",
+      "funding": "UGC-funded",
+      "summary": "方向：環球商業系統管理；商業人工智能。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1017"
+    },
+    {
+      "code": "JS1018",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(環球商業系統管理) (特點: 智能科技 / 環球商業 / 海外及内地交流)",
+      "nameEn": "BBA Global Business Systems Management (Features: Intelligent Technologies / Global Business / Study Exchange)",
+      "shortName": "BBAGBSM",
+      "funding": "UGC-funded",
+      "summary": "方向：環球商業系統管理。屬學士課程。名稱列明特色：智能科技、環球商業。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1018"
+    },
+    {
+      "code": "JS1019",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士 (商業人工智能) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
+      "nameEn": "BBA Artificial Intelligence in Business (Streams: Business Intelligence / Information Systems Auditing / Internet Services and Social Networks / Data Informatics)",
+      "shortName": "BBAAIB",
+      "funding": "UGC-funded",
+      "summary": "方向：商業人工智能；專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1019"
+    },
+    {
+      "code": "JS1026",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(商業決策分析) (專修: 決策分析學 / 數據信息學)",
+      "nameEn": "BBA Business Decision Analytics (Streams: Decision Analytics / Data Informatics)",
+      "shortName": "BBABDAN",
+      "funding": "UGC-funded",
+      "summary": "方向：商業決策分析；專修: 決策分析學 / 數據信息學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1026"
+    },
+    {
+      "code": "JS1027",
+      "school": "cityuhk",
+      "nameZh": "工商管理學士(環球營運管理) (特點: 供應鏈管理 / 營運效率 / 流程改善 / 營運分析 / 資源規劃)",
+      "nameEn": "BBA Global Operations Management (Features: Supply Chain Management / Operations Efficiency / Process Improvement / Operations Analytics / Resource Planning)",
+      "shortName": "BBAGOM",
+      "funding": "UGC-funded",
+      "summary": "方向：環球營運管理。屬學士課程。名稱列明特色：供應鏈管理、營運效率。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1027"
+    },
+    {
+      "code": "JS1040",
+      "school": "cityuhk",
+      "nameZh": "卓越創藝與科技課程 [選項: 創意媒體(校本課程)、 文學士(創意媒體)、理學士(創意媒體)、文理學士(新媒體)]",
+      "nameEn": "Creative Arts and Technology Excellence (CREATE) (Options: Creative Media (School-based)/ BA Creative Media / BSc Creative Media / BAS New Media)",
+      "shortName": "CREATE",
+      "funding": "UGC-funded",
+      "summary": "方向：創意媒體；新媒體。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1040"
+    },
+    {
+      "code": "JS1041",
+      "school": "cityuhk",
+      "nameZh": "創意媒體 [主修: 文學士(創意媒體) / 理學士(創意媒體) / 文理學士(新媒體)]",
+      "nameEn": "Creative Media (Majors: BA Creative Media / BSc Creative Media / BAS New Media)",
+      "shortName": "SCM",
+      "funding": "UGC-funded",
+      "summary": "方向：創意媒體；新媒體。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1041"
+    },
+    {
+      "code": "JS1042",
+      "school": "cityuhk",
+      "nameZh": "文學士(創意媒體) (特點: 動畫 / 電影及攝影 / 批判理論及實踐 / 遊戲及可玩媒體 / 新媒體藝術 / 聲音藝術)",
+      "nameEn": "BA Creative Media (Features: Animation / Cinema & Photography / Critical Theory & Practices / Game & Playable Media / New Media Art / Sound Art)",
+      "shortName": "BACRM",
+      "funding": "UGC-funded",
+      "summary": "方向：創意媒體。屬學士課程。名稱列明特色：動畫、電影及攝影。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1042"
+    },
+    {
+      "code": "JS1043",
+      "school": "cityuhk",
+      "nameZh": "理學士(創意媒體) (特點: 結合創意媒體及電腦科學課程 / 動畫 / 遊戲 / 裝置藝術 / 互動媒體)",
+      "nameEn": "BSc Creative Media (Features: Combination of Creative Media and Computer Science Courses / Animation / Games / Installation / Interactivity)",
+      "shortName": "BScCRM",
+      "funding": "UGC-funded",
+      "summary": "方向：創意媒體。屬學士課程。名稱列明特色：結合創意媒體及電腦科學課程、動畫。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1043"
+    },
+    {
+      "code": "JS1044",
+      "school": "cityuhk",
+      "nameZh": "文理學士(新媒體) (特點: 媒體藝術 / 機械人學及人工智能 / 藝術及科技 / 物料及數位製造)",
+      "nameEn": "BAS New Media (Features: Media Art / Robotics & AI / Art & Technology / Materials & Digital Fabrication)",
+      "shortName": "BASNEM",
+      "funding": "UGC-funded",
+      "summary": "方向：新媒體。屬學士課程。名稱列明特色：媒體藝術、機械人學及人工智能。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1044"
+    },
+    {
+      "code": "JS1050",
+      "school": "cityuhk",
+      "nameZh": "環球可持續發展科創課程 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)＋特點：環球視野]",
+      "nameEn": "International Sustainability Programme for Innovation, Research & Entrepreneurship(INSPIRE) (Majors: BEng Energy Science & Engineering/BEng Environmental Science & Engineering +Features: Global Focus)",
+      "shortName": "INSPIRE",
+      "funding": "UGC-funded",
+      "summary": "方向：能源科學及工程學；環境科學及工程學。此編號列有不同課程或專修選項。名稱列明特色：環球視野。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1050"
+    },
+    {
+      "code": "JS1051",
+      "school": "cityuhk",
+      "nameZh": "能源及環境學 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)]",
+      "nameEn": "Energy and Environment (Majors: BEng Energy Science and Engineering / BEng Environmental Science and Engineering)",
+      "shortName": "SEE",
+      "funding": "UGC-funded",
+      "summary": "方向：能源科學及工程學；環境科學及工程學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1051"
+    },
+    {
+      "code": "JS1052",
+      "school": "cityuhk",
+      "nameZh": "工學士(環境科學及工程學)與工商管理學士(金融)[雙學位；特點：環境、社會和管治 / 綠色金融 / 環保技術 / 跨學科教育]",
+      "nameEn": "BEng Environmental Science and Engineering and BBA Finance (Double Degree; Features: Environmental, Social & Governance (ESG) / Green Finance / Environmental Technology / Interdisciplinary Education)",
+      "shortName": "BEngESE&BBAFIN",
+      "funding": "UGC-funded",
+      "summary": "方向：環境科學及工程學；金融。名稱列明為雙學位。名稱列明特色：環境、社會和管治、綠色金融。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1052"
+    },
+    {
+      "code": "JS1053",
+      "school": "cityuhk",
+      "nameZh": "理學士(環境及可持續發展商業) [特點：環境科學 / 商業可持續發展 / 環境、社會和管治]",
+      "nameEn": "BSc Environment and Sustainable Business (Features: Environmental Science / Business Sustainability / Environmental, Social & Governance (ESG))",
+      "shortName": "BScESB",
+      "funding": "UGC-funded",
+      "summary": "方向：環境及可持續發展商業。屬學士課程。名稱列明特色：環境科學、商業可持續發展。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1053"
+    },
+    {
+      "code": "JS1061",
+      "school": "cityuhk",
+      "nameZh": "法律學學士",
+      "nameEn": "Bachelor of Laws",
+      "shortName": "LLB",
+      "funding": "UGC-funded",
+      "summary": "課程：法律學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1061"
+    },
+    {
+      "code": "JS1062",
+      "school": "cityuhk",
+      "nameZh": "法律學學士與工商管理學士(會計) (雙學位)",
+      "nameEn": "Bachelor of Laws and BBA Accountancy (Double Degree)",
+      "shortName": "LLB&BBAAC",
+      "funding": "UGC-funded",
+      "summary": "方向：會計。名稱列明為雙學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1062"
+    },
+    {
+      "code": "JS1063",
+      "school": "cityuhk",
+      "nameZh": "法律學學士與理學士(計算機科學) (專修: 人工智能)(雙學位)",
+      "nameEn": "Bachelor of Laws and Bachelor of Science in Computer Science (Stream: Artificial Intelligence) (Double Degree)",
+      "shortName": "LLB&BScCS",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機科學；專修: 人工智能。名稱列明為雙學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1063"
+    },
+    {
+      "code": "JS1070",
+      "school": "cityuhk",
+      "nameZh": "人工智能 ･ 計算 ･ 突破課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
+      "nameEn": "AI, Computing and Transformation (ACT) (Features: Free Choice of Major / One-to-One Advisor / Elite Work Placement / Executive Mentor Scheme / Premium Overseas Exchange / Internship Exchange)",
+      "shortName": "ACT",
+      "funding": "UGC-funded",
+      "summary": "課程：人工智能･計算･突破課程。以組合、學院或學系形式招生。名稱列明特色：自由選擇學院專業學科、一對一專業導師。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1070"
+    },
+    {
+      "code": "JS1071",
+      "school": "cityuhk",
+      "nameZh": "數據科學 [主修：理學士 (數據科學) / 理學士 (數據與系統工程)]",
+      "nameEn": "Data Science (Majors: BSc Data Science / BSc Data and Systems Engineering)",
+      "shortName": "DS",
+      "funding": "UGC-funded",
+      "summary": "方向：數據科學；數據與系統工程。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1071"
+    },
+    {
+      "code": "JS1072",
+      "school": "cityuhk",
+      "nameZh": "理學士(數據科學) (特點: 數據科學 / 機器學習 / 數據挖掘 / 大數據分析)",
+      "nameEn": "BSc Data Science (Features: Data Science / Machine Learning / Data Mining / Big Data Analysis)",
+      "shortName": "BScDSC",
+      "funding": "UGC-funded",
+      "summary": "方向：數據科學。屬學士課程。名稱列明特色：數據科學、機器學習。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1072"
+    },
+    {
+      "code": "JS1074",
+      "school": "cityuhk",
+      "nameZh": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市)",
+      "nameEn": "BSc Data and Systems Engineering (Features: Data Science / FinTech & Decision Analytics / Industrial AI / Smart City)",
+      "shortName": "BScDSE",
+      "funding": "UGC-funded",
+      "summary": "方向：數據與系統工程。屬學士課程。名稱列明特色：數據科學、金融科技。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1074"
+    },
+    {
+      "code": "JS1102",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士(國際關係及全球事務) (專修: 亞洲研究 / 國際研究 / 發展研究)",
+      "nameEn": "BSocSc International Relations and Global Affairs (Streams: Asian Studies / International Studies / Development Studies)",
+      "shortName": "BSocScIRGA",
+      "funding": "UGC-funded",
+      "summary": "方向：國際關係及全球事務；專修: 亞洲研究 / 國際研究 / 發展研究。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1102"
+    },
+    {
+      "code": "JS1103",
+      "school": "cityuhk",
+      "nameZh": "文學士(中文及歷史) (專修: 中文 / 歷史及文化遺產)",
+      "nameEn": "BA Chinese and History (Streams: Chinese / History and Cultural Heritage)",
+      "shortName": "BACHIS",
+      "funding": "UGC-funded",
+      "summary": "方向：中文及歷史；專修: 中文 / 歷史及文化遺產。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1103"
+    },
+    {
+      "code": "JS1104",
+      "school": "cityuhk",
+      "nameZh": "文學士(英語語言) (專修: 英語及專業傳意 / 語言及文學)",
+      "nameEn": "BA English (Streams: English and Professional Communication / Language and Literature)",
+      "shortName": "BAEN",
+      "funding": "UGC-funded",
+      "summary": "方向：英語語言；專修: 英語及專業傳意 / 語言及文學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1104"
+    },
+    {
+      "code": "JS1106",
+      "school": "cityuhk",
+      "nameZh": "媒體與傳播 [主修: 文學士(數碼電視與廣播) / 文學士(媒體與傳播)]",
+      "nameEn": "Media and Communication (Majors: BA Digital Television and Broadcasting / BA Media and Communication)",
+      "shortName": "COM",
+      "funding": "UGC-funded",
+      "summary": "方向：數碼電視與廣播；媒體與傳播。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1106"
+    },
+    {
+      "code": "JS1108",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士(公共事務與管理) (專修: 公共事務與管治 / 公共政策與管理)",
+      "nameEn": "BSocSc Public Affairs and Management (Streams: Public Affairs and Governance / Public Policy and Management)",
+      "shortName": "BSocScPAFM",
+      "funding": "UGC-funded",
+      "summary": "方向：公共事務與管理；專修: 公共事務與管治 / 公共政策與管理。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1108"
+    },
+    {
+      "code": "JS1109",
+      "school": "cityuhk",
+      "nameZh": "文學士(語言學及語言應用) (特點: 普通語言學 / 計算語言學 / 語料庫語言學 / 實驗語言學 / 語言技術及應用)",
+      "nameEn": "BA Linguistics and Language Applications (Features: General Linguistics / Computational Linguistics / Corpus Linguistics / Experimental Linguistics / Language Technology and Applications)",
+      "shortName": "BALLA",
+      "funding": "UGC-funded",
+      "summary": "方向：語言學及語言應用。屬學士課程。名稱列明特色：普通語言學、計算語言學。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1109"
+    },
+    {
+      "code": "JS1111",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士 (犯罪科學) (特點: 犯罪預防 / 安保實務 / 全球警政 / 犯罪分析 / 科網與未來犯罪)",
+      "nameEn": "BSocSc Crime Science (Features: Crime Prevention / Security Practice / Global Policing / Crime Analytics / Cyber and Future Crimes)",
+      "shortName": "BSocScCRS",
+      "funding": "UGC-funded",
+      "summary": "方向：犯罪科學。屬學士課程。名稱列明特色：犯罪預防、安保實務。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1111"
+    },
+    {
+      "code": "JS1112",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士(心理學) (專修: 健康與人類發展 / 大腦與認知)",
+      "nameEn": "BSocSc Psychology (Streams: Health and Development / Mind and Brain)",
+      "shortName": "BSocScPSY",
+      "funding": "UGC-funded",
+      "summary": "方向：心理學；專修: 健康與人類發展 / 大腦與認知。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1112"
+    },
+    {
+      "code": "JS1113",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士(社會工作) (特點: 社會參與及人文關懷 – 健康與福祉 / 社會多元與持續 / 人在環境的專業介入)",
+      "nameEn": "BSocSc Social Work (Features: Social Engagement and Concern for People’s Health and Well-Being / Human Diversities and Sustainability / People-in-Environment Interventions)",
+      "shortName": "BSocScSW",
+      "funding": "UGC-funded",
+      "summary": "方向：社會工作。屬學士課程。名稱列明特色：社會參與及人文關懷 – 健康與福祉、社會多元與持續。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1113"
+    },
+    {
+      "code": "JS1120",
+      "school": "cityuhk",
+      "nameZh": "卓越全球人文社科課程 [特點: 自由選擇學院內任何一個主修科(社會科學學士(社會工作)除外) / 海外體驗 / 跨領域學習]",
+      "nameEn": "Social and Arts Global Excellence (SAGE) [Features: Any major in the College of Liberal Arts and Social Sciences (except for BSocSc Social Work) / Non-local experience / Interdisciplinary]*",
+      "shortName": "SAGE",
+      "funding": "UGC-funded",
+      "summary": "方向：社會工作。以此名稱列於官方招生目錄。名稱列明特色：自由選擇學院內任何一個主修科(社會科學學士(社會工作。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1120"
+    },
+    {
+      "code": "JS1123",
+      "school": "cityuhk",
+      "nameZh": "社會科學學士(犯罪科學)與法律學學士 (雙學位)",
+      "nameEn": "BSocSc Crime Science and Bachelor of Laws (Double Degree)",
+      "shortName": "BSocScCRS&LLB",
+      "funding": "UGC-funded",
+      "summary": "方向：犯罪科學。名稱列明為雙學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1123"
+    },
+    {
+      "code": "JS1200",
+      "school": "cityuhk",
+      "nameZh": "環球精研與科創課程 [主修：理學士 (化學) / 理學士 (計算數學) / 理學士 (物理學) ＋ 環球精研與科創]",
+      "nameEn": "Global Research Enrichment and Technopreneurship (GREAT) [Majors: BSc Chemistry / BSc Computing Mathematics / BSc Physics + Global Research Enrichment and Technopreneurship (GREAT)]",
+      "shortName": "GREAT",
+      "funding": "UGC-funded",
+      "summary": "方向：化學；計算數學；物理學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1200"
+    },
+    {
+      "code": "JS1201",
+      "school": "cityuhk",
+      "nameZh": "建築學及土木工程學 [主修:工學士(屋宇裝備工程) / 工學士(土木工程) / 理學士(建築學及測量學)]",
+      "nameEn": "Architecture and Civil Engineering (Majors: BEng Building Services Engineering / BEng Civil Engineering / BSc Architecture and Surveying)",
+      "shortName": "ARCE",
+      "funding": "UGC-funded",
+      "summary": "方向：屋宇裝備工程；土木工程；建築學及測量學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1201"
+    },
+    {
+      "code": "JS1202",
+      "school": "cityuhk",
+      "nameZh": "理學士(化學) (專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創)",
+      "nameEn": "BSc Chemistry (Streams: Comprehensive Chemistry / Cosmetic Chemistry / Forensic Chemistry / Global Research Enrichment and Technopreneurship (GREAT))",
+      "shortName": "BScCHEM",
+      "funding": "UGC-funded",
+      "summary": "方向：化學；專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1202"
+    },
+    {
+      "code": "JS1204",
+      "school": "cityuhk",
+      "nameZh": "理學士(計算機科學) (專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理)",
+      "nameEn": "BSc Computer Science (Streams: Artificial Intelligence / Cybersecurity / Data Science / Multimedia Computing / Software Engineering and Project Management)",
+      "shortName": "BScCSC",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機科學；專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1204"
+    },
+    {
+      "code": "JS1205",
+      "school": "cityuhk",
+      "nameZh": "電機工程學 [主修: 工學士(電子計算機及數據工程學) ／工學士(電子及電機工程學) ／ 工學士(資訊工程學) ／ 工學士(微電子工程學)]",
+      "nameEn": "Electrical Engineering (Majors: BEng Computer and Data Engineering / BEng Electronic and Electrical Engineering / BEng Information Engineering / BEng Microelectronics Engineering)",
+      "shortName": "ELEL",
+      "funding": "UGC-funded",
+      "summary": "方向：電子計算機及數據工程學；電子及電機工程學；資訊工程學；微電子工程學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1205"
+    },
+    {
+      "code": "JS1206",
+      "school": "cityuhk",
+      "nameZh": "理學士 (計算數學) (專修範疇: 數學精研 / 金融數學 / 環球精研與科創)",
+      "nameEn": "BSc Computing Mathematics (Streams: Enriched Mathematics / Financial Mathematics / Global Research Enrichment and Technopreneurship (GREAT))",
+      "shortName": "BScCM",
+      "funding": "UGC-funded",
+      "summary": "方向：計算數學；專修範疇: 數學精研 / 金融數學 / 環球精研與科創。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1206"
+    },
+    {
+      "code": "JS1207",
+      "school": "cityuhk",
+      "nameZh": "機械工程學 [主修: 工學士(航空航天工程) / 工學士(機械工程) / 工學士(核子及風險工程)]",
+      "nameEn": "Mechanical Engineering (Majors: BEng Aerospace Engineering / BEng Mechanical Engineering / BEng Nuclear and Risk Engineering)",
+      "shortName": "M.E.",
+      "funding": "UGC-funded",
+      "summary": "方向：航空航天工程；機械工程；核子及風險工程。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1207"
+    },
+    {
+      "code": "JS1208",
+      "school": "cityuhk",
+      "nameZh": "理學士 (物理學) (特點：經典物理 / 近代物理 / 實驗與電算物理 / 醫學物理 / 凝聚態物理 / 環球精研與科創)",
+      "nameEn": "BSc Physics [Features: Classical Physics/Modern Physics/Experimental and Computational Physics/Medical Physics/Condensed Matter Physics/Global Research Enrichment and Technopreneurship (GREAT)]",
+      "shortName": "BScPHY",
+      "funding": "UGC-funded",
+      "summary": "方向：物理學。屬學士課程。名稱列明特色：經典物理、近代物理。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1208"
+    },
+    {
+      "code": "JS1210",
+      "school": "cityuhk",
+      "nameZh": "工學士(材料科學及工程) (特點: 香港工程師學會認可 / 工業和科研實習 / 海外雙學位課程 / 知識到應用遷移 / 世界領先的研究)",
+      "nameEn": "BEng Materials Science and Engineering (Features: HKIE Accredited / Industrial and Research Internships / Overseas Double-degrees / Knowledge Transfer / World-leading Research)",
+      "shortName": "BEngMASE",
+      "funding": "UGC-funded",
+      "summary": "方向：材料科學及工程。名稱列明為雙學位。名稱列明特色：香港工程師學會認可、工業和科研實習。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1210"
+    },
+    {
+      "code": "JS1211",
+      "school": "cityuhk",
+      "nameZh": "工學士(生物醫學工程) (特點: 醫療技術 / 生物儀器 / 細胞和組織工程 / 醫療機器人)",
+      "nameEn": "BEng Biomedical Engineering (Features: Medical Technology / Bioinstrumentation / Cell and Tissue Engineering / Biomedical Robotics)",
+      "shortName": "BEngBME",
+      "funding": "UGC-funded",
+      "summary": "方向：生物醫學工程。屬學士課程。名稱列明特色：醫療技術、生物儀器。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1211"
+    },
+    {
+      "code": "JS1216",
+      "school": "cityuhk",
+      "nameZh": "工學士(智能製造工程學) (特點: 物聯網 / 工業大數據 / 機器人技術與自動化 / 物流與供應鏈 / 智慧城市工程)",
+      "nameEn": "BEng Intelligent Manufacturing Engineering (Features: Industrial Internet-of-Things / Industrial Big Data / Robotics and Automation / Logistics and Supply Chain / Smart City Engineering)",
+      "shortName": "BEngITME",
+      "funding": "UGC-funded",
+      "summary": "方向：智能製造工程學。屬學士課程。名稱列明特色：物聯網、工業大數據。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1216"
+    },
+    {
+      "code": "JS1217",
+      "school": "cityuhk",
+      "nameZh": "研究、創新和環球工程課程 (特點: 自由選擇工學院任何主修 十 海外經驗 / 跨學科 / 工程創業)",
+      "nameEn": "Pathway for Research, Innovation, and Multinational Engineering (PRIME) (Free Choice of Major in College of Engineering + Overseas Experience / Interdisciplinary / Engineering Entrepreneurship)",
+      "shortName": "PRIME",
+      "funding": "UGC-funded",
+      "summary": "課程：研究、創新和環球工程課程。以此名稱列於官方招生目錄。名稱列明特色：自由選擇工學院任何主修 十 海外經驗、跨學科。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1217"
+    },
+    {
+      "code": "JS1218",
+      "school": "cityuhk",
+      "nameZh": "理學士 (網絡安全) (特點: 系統安全 / 軟件安全 / 密碼學 / 隱私增強技術 / 網絡風險管理)",
+      "nameEn": "BSc Cybersecurity (Features: System Security / Software Security / Cryptography / Privacy-Enhancing Technologies / Cyber Risk Management)",
+      "shortName": "BScCYBE",
+      "funding": "UGC-funded",
+      "summary": "方向：網絡安全。屬學士課程。名稱列明特色：系統安全、軟件安全。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1218"
+    },
+    {
+      "code": "JS1219",
+      "school": "cityuhk",
+      "nameZh": "工學士(創新與企業工程) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
+      "nameEn": "BEng Innovation and Enterprise Engineering (Features: Engineering / Technology / Innovation / Enterprise / Entrepreneurship)",
+      "shortName": "BEngIEEG",
+      "funding": "UGC-funded",
+      "summary": "方向：創新與企業工程。屬學士課程。名稱列明特色：工程學、科技。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1219"
+    },
+    {
+      "code": "JS1221",
+      "school": "cityuhk",
+      "nameZh": "理學士（計算機科學）與理學士（計算金融及金融科技）(雙學位；特點：企業會計與經濟 / 計算金融 / 高階統計 / 建模與演算法 / 金融科技軟件工程)",
+      "nameEn": "BSc Computer Science and BSc Computational Finance and Financial Technology(Double Degree;Features:Corporate Accounting & Economics/Computational Finance/Advanced Statistics/Financial Technologies)",
+      "shortName": "BScCSC&BScCFFT",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機科學；計算金融及金融科技。名稱列明為雙學位。名稱列明特色：企業會計與經濟、計算金融。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1221"
+    },
+    {
+      "code": "JS1300",
+      "school": "cityuhk",
+      "nameZh": "綜合生物科學與生物工程課程 (特點: 自主選擇主修學科 / 海外頂尖院校研究機會 / 跨學科)",
+      "nameEn": "Integrative Bioscience & Bioengineering Programme (Bio3) (Features: Free Choice of Major / Overseas Research Opportunities / Interdisciplinary)",
+      "shortName": "Bio3",
+      "funding": "UGC-funded",
+      "summary": "課程：綜合生物科學與生物工程課程。以此名稱列於官方招生目錄。名稱列明特色：自主選擇主修學科、海外頂尖院校研究機會。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1300"
+    },
+    {
+      "code": "JS1801",
+      "school": "cityuhk",
+      "nameZh": "獸醫學學士 (特點: 健康一體化 / 動物健康與福利 / 公共衞生 / 雙認證獸醫課程)",
+      "nameEn": "Bachelor of Veterinary Medicine (Features: One Health / Animal Health & Welfare / Public Health / Dual Accreditation)",
+      "shortName": "BVM",
+      "funding": "UGC-funded",
+      "summary": "課程：獸醫學學士。屬學士課程。名稱列明特色：健康一體化、動物健康與福利。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1801"
+    },
+    {
+      "code": "JS1805",
+      "school": "cityuhk",
+      "nameZh": "生物醫學 [主修: 理學士(生物科學) / 理學士(生物醫學)]",
+      "nameEn": "Biomedical Sciences (Majors: BSc Biological Sciences / BSc Biomedical Sciences)",
+      "shortName": "BMS",
+      "funding": "UGC-funded",
+      "summary": "方向：生物科學；生物醫學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1805"
+    },
+    {
+      "code": "JS1806",
+      "school": "cityuhk",
+      "nameZh": "理學士(生物科學) (特點: 生物資訊學/生物化學/遺傳學/細胞與分子生物學/免疫學/參與不同研究項目提供實踐經驗)",
+      "nameEn": "BSc Biological Sciences (Features: Bioinformatics/Biochemistry/Genetics/Cellular & Molecular Biology/Immunology/Research Rotation Projects for Hands-on Experience)",
+      "shortName": "BScBISI",
+      "funding": "UGC-funded",
+      "summary": "方向：生物科學。屬學士課程。名稱列明特色：生物資訊學、生物化學。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1806"
+    },
+    {
+      "code": "JS1807",
+      "school": "cityuhk",
+      "nameZh": "理學士(生物醫學) (特點: 臨床化學 / 血液學 / 醫學微生物與感染學 / 解剖病理學 / 免疫學 / 臨床實習 / 密集實驗室經驗)",
+      "nameEn": "BSc Biomedical Sciences (Features: Clinical Chemistry / Hematology / Medical Microbiology and Infection / Anatomical Pathology / Immunology / Clinical Placement / Intensive Laboratory Experience)",
+      "shortName": "BScBMS",
+      "funding": "UGC-funded",
+      "summary": "方向：生物醫學。屬學士課程。名稱列明特色：臨床化學、血液學。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cityuhk/JS1807"
+    },
+    {
+      "code": "JS2020",
+      "school": "hkbu",
+      "nameZh": "文學士(榮譽) (中國語言文學 / 創意及專業寫作 / 英國語言文學 / 人文學 / 翻譯學)",
+      "nameEn": "Bachelor of Arts (Hons) (Chinese Language and Literature / Creative and Professional Writing / English Language and Literature / Humanities / Translation)",
+      "shortName": "BA",
+      "funding": "UGC-funded",
+      "summary": "方向：中國語言文學 / 創意及專業寫作 / 英國語言文學 / 人文學 / 翻譯學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2020"
+    },
+    {
+      "code": "JS2025",
+      "school": "hkbu",
+      "nameZh": "宗教、哲學及倫理文學士(榮譽)",
+      "nameEn": "Bachelor of Arts (Hons) in Religion, Philosophy and Ethics",
+      "shortName": "BA(RPE)",
+      "funding": "UGC-funded",
+      "summary": "課程：宗教、哲學及倫理文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2025"
+    },
+    {
+      "code": "JS2030",
+      "school": "hkbu",
+      "nameZh": "音樂文學士(榮譽)",
+      "nameEn": "Bachelor of Arts (Hons) in Music",
+      "shortName": "BA(MUSIC)",
+      "funding": "UGC-funded",
+      "summary": "課程：音樂文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2030"
+    },
+    {
+      "code": "JS2050",
+      "school": "hkbu",
+      "nameZh": "創意產業音樂學士(榮譽)",
+      "nameEn": "Bachelor of Music (Hons) in Creative Industries",
+      "shortName": "BMUSIC(CI)",
+      "funding": "UGC-funded",
+      "summary": "課程：創意產業音樂學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2050"
+    },
+    {
+      "code": "JS2110",
+      "school": "hkbu",
+      "nameZh": "工商管理學士(榮譽) - 會計學專修",
+      "nameEn": "Bachelor of Business Administration (Hons) - Accounting Concentration",
+      "shortName": "BBA(ACCT)",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理學士-會計學專修。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2110"
+    },
+    {
+      "code": "JS2120",
+      "school": "hkbu",
+      "nameZh": "工商管理學士(榮譽)",
+      "nameEn": "Bachelor of Business Administration (Hons)",
+      "shortName": "BBA",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2120"
+    },
+    {
+      "code": "JS2310",
+      "school": "hkbu",
+      "nameZh": "傳理學學士(榮譽) (新聞與數碼媒體 / 公關及廣告)",
+      "nameEn": "Bachelor of Communication (Hons) (Journalism and Digital Media / Public Relations and Advertising)",
+      "shortName": "BCOMM",
+      "funding": "UGC-funded",
+      "summary": "方向：新聞與數碼媒體 / 公關及廣告。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2310"
+    },
+    {
+      "code": "JS2330",
+      "school": "hkbu",
+      "nameZh": "電影電視文學士(榮譽)",
+      "nameEn": "Bachelor of Arts (Hons) in Film and Television",
+      "shortName": "BA(FTV)",
+      "funding": "UGC-funded",
+      "summary": "課程：電影電視文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2330"
+    },
+    {
+      "code": "JS2340",
+      "school": "hkbu",
+      "nameZh": "環球螢幕演技藝術學士(榮譽)",
+      "nameEn": "Bachelor of Fine Arts (Hons) in Acting for Global Screen",
+      "shortName": "BFA(AGS)",
+      "funding": "UGC-funded",
+      "summary": "課程：環球螢幕演技藝術學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2340"
+    },
+    {
+      "code": "JS2370",
+      "school": "hkbu",
+      "nameZh": "傳理學學士(榮譽) - 遊戲設計與動畫主修",
+      "nameEn": "Bachelor of Communication (Hons) in Game Design and Animation",
+      "shortName": "BCOMM(GDA)",
+      "funding": "UGC-funded",
+      "summary": "課程：傳理學學士-遊戲設計與動畫主修。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2370"
+    },
+    {
+      "code": "JS2410",
+      "school": "hkbu",
+      "nameZh": "中醫學學士及生物醫學理學士(榮譽)",
+      "nameEn": "Bachelor of Chinese Medicine and Bachelor of Science (Hons) in Biomedical Science",
+      "shortName": "BCM&BSc(BIOMED)",
+      "funding": "UGC-funded",
+      "summary": "課程：中醫學學士及生物醫學理學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2410"
+    },
+    {
+      "code": "JS2420",
+      "school": "hkbu",
+      "nameZh": "中藥及藥物科學藥學士(榮譽)",
+      "nameEn": "Bachelor of Pharmacy (Hons) in Chinese Medicine and Pharmaceutical Sciences",
+      "shortName": "BPharm",
+      "funding": "UGC-funded",
+      "summary": "課程：中藥及藥物科學藥學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2420"
+    },
+    {
+      "code": "JS2510",
+      "school": "hkbu",
+      "nameZh": "理學士(榮譽)",
+      "nameEn": "Bachelor of Science (Hons)",
+      "shortName": "BSc",
+      "funding": "UGC-funded",
+      "summary": "課程：理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2510"
+    },
+    {
+      "code": "JS2610",
+      "school": "hkbu",
+      "nameZh": "文學士(榮譽)/ 社會科學學士(榮譽) (應用心理科學/ 歐洲研究 [法文/德文]/ 地理/ 全球及中國研究/ 政治及國際關係學/ 歷史/ 社會學)",
+      "nameEn": "BA (Hons) / BSSc (Hons) (Applied Psychological Science/ European Studies [French/German Stream] / Geography/ Global and China Studies/ Government and International Studies/ History/ Sociology)",
+      "shortName": "BA/BSocSc",
+      "funding": "UGC-funded",
+      "summary": "方向：應用心理科學/ 歐洲研究 [法文/德文]/ 地理/ 全球及中國研究/ 政治及國際關係學/ 歷史/ 社會學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2610"
+    },
+    {
+      "code": "JS2620",
+      "school": "hkbu",
+      "nameZh": "體育及康樂管理文學士(榮譽)",
+      "nameEn": "Bachelor of Arts (Hons) in Physical Education and Recreation Management",
+      "shortName": "BA(PERM)",
+      "funding": "UGC-funded",
+      "summary": "課程：體育及康樂管理文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2620"
+    },
+    {
+      "code": "JS2660",
+      "school": "hkbu",
+      "nameZh": "社會工作學士(榮譽)",
+      "nameEn": "Bachelor of Social Work (Hons)",
+      "shortName": "BSW",
+      "funding": "UGC-funded",
+      "summary": "課程：社會工作學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2660"
+    },
+    {
+      "code": "JS2810",
+      "school": "hkbu",
+      "nameZh": "視覺藝術文學士(榮譽)",
+      "nameEn": "Bachelor of Arts (Hons) in Visual Arts",
+      "shortName": "BA(VA)",
+      "funding": "UGC-funded",
+      "summary": "課程：視覺藝術文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2810"
+    },
+    {
+      "code": "JS2910",
+      "school": "hkbu",
+      "nameZh": "商業分析及人工智能理學士(榮譽)",
+      "nameEn": "Bachelor of Science (Hons) in Business Analytics and Artificial Intelligence",
+      "shortName": "BSc(BAAI)",
+      "funding": "UGC-funded",
+      "summary": "課程：商業分析及人工智能理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2910"
+    },
+    {
+      "code": "JS2920",
+      "school": "hkbu",
+      "nameZh": "藝術及科技文理學士(榮譽)",
+      "nameEn": "Bachelor of Arts and Science (Hons) in Arts and Technology",
+      "shortName": "BASc(ARTT)",
+      "funding": "UGC-funded",
+      "summary": "課程：藝術及科技文理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2920"
+    },
+    {
+      "code": "JS2930",
+      "school": "hkbu",
+      "nameZh": "工商管理文學士(榮譽)(全球娛樂)",
+      "nameEn": "Bachelor of Arts (Hons) in Business Administration (Global Entertainment)",
+      "shortName": "BA(BUSADMIN-GE)",
+      "funding": "UGC-funded",
+      "summary": "方向：全球娛樂。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2930"
+    },
+    {
+      "code": "JS2940",
+      "school": "hkbu",
+      "nameZh": "創新醫療及社會健康社會科學學士(榮譽) / 理學士(榮譽)",
+      "nameEn": "Bachelor of Social Sciences (Hons) / Bachelor of Science (Hons) in Innovation in Health and Social Well-Being",
+      "shortName": "BSocSc/BSc(HSWB)",
+      "funding": "UGC-funded",
+      "summary": "課程：創新醫療及社會健康社會科學學士/理學士。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2940"
+    },
+    {
+      "code": "JS2950",
+      "school": "hkbu",
+      "nameZh": "文理及科技學士(榮譽)自訂主修",
+      "nameEn": "Bachelor of Arts, Science and Technology (Hons) in Individualised Major",
+      "shortName": "BAScT",
+      "funding": "UGC-funded",
+      "summary": "課程：文理及科技學士自訂主修。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2950"
+    },
+    {
+      "code": "JS2960",
+      "school": "hkbu",
+      "nameZh": "數位未來與人文學科文理學士(榮譽)",
+      "nameEn": "Bachelor of Arts and Science (Hons) in Digital Futures and Humanities",
+      "shortName": "BASc(DIFH)",
+      "funding": "UGC-funded",
+      "summary": "課程：數位未來與人文學科文理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkbu/JS2960"
+    },
+    {
+      "code": "JS3000",
+      "school": "polyu",
+      "nameZh": "跨學科組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Interdisciplinary Studies",
+      "shortName": "INTERDISCIP STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：跨學科組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3000"
+    },
+    {
+      "code": "JS3003",
+      "school": "polyu",
+      "nameZh": "工商管理組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Business Administration",
+      "shortName": "BUSINESS ADMIN",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3003"
+    },
+    {
+      "code": "JS3004",
+      "school": "polyu",
+      "nameZh": "建設及環境組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Construction and Environment",
+      "shortName": "CONSTRUCT & ENVIR",
+      "funding": "UGC-funded",
+      "summary": "課程：建設及環境組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3004"
+    },
+    {
+      "code": "JS3005",
+      "school": "polyu",
+      "nameZh": "工程學科組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Engineering",
+      "shortName": "ENGINEERING",
+      "funding": "UGC-funded",
+      "summary": "課程：工程學科組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3005"
+    },
+    {
+      "code": "JS3006",
+      "school": "polyu",
+      "nameZh": "計算機及數學科學組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Computer and Mathematical Sciences",
+      "shortName": "COMP & MATH SCI",
+      "funding": "UGC-funded",
+      "summary": "課程：計算機及數學科學組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3006"
+    },
+    {
+      "code": "JS3007",
+      "school": "polyu",
+      "nameZh": "人文學科組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Humanities",
+      "shortName": "HUMANITIES",
+      "funding": "UGC-funded",
+      "summary": "課程：人文學科組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3007"
+    },
+    {
+      "code": "JS3008",
+      "school": "polyu",
+      "nameZh": "理學組合學士課程",
+      "nameEn": "Bachelor’s Degree Scheme in Science",
+      "shortName": "SCIENCE",
+      "funding": "UGC-funded",
+      "summary": "課程：理學組合學士課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3008"
+    },
+    {
+      "code": "JS3030",
+      "school": "polyu",
+      "nameZh": "物理學(榮譽)理學士副主修人工智能及數據分析 / 創新及創業",
+      "nameEn": "BSc (Hons) in Physics with a Secondary Major in Artificial Intelligence & Data Analytics (AIDA) / Innovation and Entrepreneurship (IE)",
+      "shortName": "PHYSICS",
+      "funding": "UGC-funded",
+      "summary": "課程：物理學理學士副主修人工智能及數據分析/創新及創業。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3030"
+    },
+    {
+      "code": "JS3050",
+      "school": "polyu",
+      "nameZh": "時裝(榮譽)文學士組合課程 (時裝設計 / 針織時裝設計 / 內衣及運動服裝 / 時裝商務 / 時裝創新及科技)",
+      "nameEn": "BA (Hons) Scheme in Fashion (Fashion Design / Knitwear Design / Contour Fashion and Activewear / Fashion Business / Fashion Innovation and Technology)",
+      "shortName": "FASHION",
+      "funding": "UGC-funded",
+      "summary": "方向：時裝設計 / 針織時裝設計 / 內衣及運動服裝 / 時裝商務 / 時裝創新及科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3050"
+    },
+    {
+      "code": "JS3060",
+      "school": "polyu",
+      "nameZh": "會計及金融(榮譽)工商管理學士組合課程 (會計學 / 會計及金融 / 數碼金融及投資學)",
+      "nameEn": "BBA (Hons) Scheme in Accounting and Finance (Accountancy / Accounting and Finance / Digital Finance and Investment)",
+      "shortName": "ACCT & FINANCE",
+      "funding": "UGC-funded",
+      "summary": "方向：會計學 / 會計及金融 / 數碼金融及投資學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3060"
+    },
+    {
+      "code": "JS3070",
+      "school": "polyu",
+      "nameZh": "環球商業及物流、航空、航運及供應鏈管理(榮譽)工商管理學士組合課程",
+      "nameEn": "BBA (Hons) Scheme in Global Business and Logistics, Aviation, Maritime, and Supply Chain Management",
+      "shortName": "GBL,AVIAT,MARI & SC MGT",
+      "funding": "UGC-funded",
+      "summary": "課程：環球商業及物流、航空、航運及供應鏈管理工商管理學士組合課程。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3070"
+    },
+    {
+      "code": "JS3080",
+      "school": "polyu",
+      "nameZh": "管理及市場學(榮譽)工商管理學士組合課程 (管理學 / 市場學)",
+      "nameEn": "BBA (Hons) Scheme in Management and Marketing (Management / Marketing)",
+      "shortName": "MGT & MARKETING",
+      "funding": "UGC-funded",
+      "summary": "方向：管理學 / 市場學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3080"
+    },
+    {
+      "code": "JS3130",
+      "school": "polyu",
+      "nameZh": "空間數據科學及智慧城市(榮譽)理學士組合課程 (土地測量及地理資訊學 / 城市信息學及智慧城市)",
+      "nameEn": "BSc (Hons) Scheme in Spatial Data Science and Smart Cities (Land Surveying and Geo-Informatics / Urban Informatics and Smart Cities)",
+      "shortName": "SPAT DATA & SMART CITIES",
+      "funding": "UGC-funded",
+      "summary": "方向：土地測量及地理資訊學 / 城市信息學及智慧城市。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3130"
+    },
+    {
+      "code": "JS3140",
+      "school": "polyu",
+      "nameZh": "航空工程學(榮譽)工學士組合課程 (航空工程學 / 民航工程學)",
+      "nameEn": "BEng (Hons) Scheme in Aviation Engineering (Aeronautical Engineering / Air Transport Engineering)",
+      "shortName": "AVIATION ENGG",
+      "funding": "UGC-funded",
+      "summary": "方向：航空工程學 / 民航工程學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3140"
+    },
+    {
+      "code": "JS3150",
+      "school": "polyu",
+      "nameZh": "生物醫學工程(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Biomedical Engineering",
+      "shortName": "BIOMEDICAL ENGG",
+      "funding": "UGC-funded",
+      "summary": "課程：生物醫學工程理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3150"
+    },
+    {
+      "code": "JS3160",
+      "school": "polyu",
+      "nameZh": "體育科技(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Sports Science and Technology",
+      "shortName": "SPORTS SCI & TECH",
+      "funding": "UGC-funded",
+      "summary": "課程：體育科技理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3160"
+    },
+    {
+      "code": "JS3170",
+      "school": "polyu",
+      "nameZh": "電機工程學(榮譽)工學士組合課程 (電機工程學 / 運輸系統工程學)",
+      "nameEn": "BEng (Hons) Scheme in Electrical Engineering (Electrical Engineering / Transportation Systems Engineering)",
+      "shortName": "ELECTRICAL ENGG",
+      "funding": "UGC-funded",
+      "summary": "方向：電機工程學 / 運輸系統工程學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3170"
+    },
+    {
+      "code": "JS3180",
+      "school": "polyu",
+      "nameZh": "資訊及人工智能工程學(榮譽)工學士/理學士組合課程 (物聯網 / 人工智能 / 資訊安全)",
+      "nameEn": "BEng (Hons)/BSc (Hons) Scheme in Information and Artificial Intelligence Engineering (Internet-of-Things / Artificial Intelligence / Information Security)",
+      "shortName": "INFO & AI ENGG",
+      "funding": "UGC-funded",
+      "summary": "方向：物聯網 / 人工智能 / 資訊安全。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3180"
+    },
+    {
+      "code": "JS3211",
+      "school": "polyu",
+      "nameZh": "建築科學及工程學(榮譽)工學士",
+      "nameEn": "BEng (Hons) in Building Sciences and Engineering",
+      "shortName": "BLDG SCI & ENGG",
+      "funding": "UGC-funded",
+      "summary": "課程：建築科學及工程學工學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3211"
+    },
+    {
+      "code": "JS3214",
+      "school": "polyu",
+      "nameZh": "建築學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Architectural Studies",
+      "shortName": "ARCHIT STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：建築學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3214"
+    },
+    {
+      "code": "JS3220",
+      "school": "polyu",
+      "nameZh": "應用數學及金融分析(榮譽)理學士組合課程 (應用數學 / 投資科學及金融分析 / 量化金融及金融科技)",
+      "nameEn": "BSc (Hons) Scheme in Applied Mathematics and Finance Analytics (Applied Mathematics / Investment Science and Finance Analytics / Quantitative Finance and FinTech)",
+      "shortName": "APP MATHS & FIN ANA",
+      "funding": "UGC-funded",
+      "summary": "方向：應用數學 / 投資科學及金融分析 / 量化金融及金融科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3220"
+    },
+    {
+      "code": "JS3223",
+      "school": "polyu",
+      "nameZh": "數據科學及人工智能(榮譽)理學士組合課程 (人工智能 / 人工智能兼金融科技 / 數據科學及分析)",
+      "nameEn": "BSc (Hons) Scheme in Data Science and Artificial Intelligence (Artificial Intelligence / Artificial Intelligence with Financial Technology / Data Science and Analytics)",
+      "shortName": "DATA SCI & AI",
+      "funding": "UGC-funded",
+      "summary": "方向：人工智能 / 人工智能兼金融科技 / 數據科學及分析。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3223"
+    },
+    {
+      "code": "JS3236",
+      "school": "polyu",
+      "nameZh": "產品創新及智能製造(榮譽)工學士組合課程 (產品創新兼市場學 / 智能製造)",
+      "nameEn": "BEng (Hons) Scheme in Product Innovation and Smart Manufacturing (Product Innovation with Marketing / Smart Manufacturing)",
+      "shortName": "PROD INNO & SMART MFG",
+      "funding": "UGC-funded",
+      "summary": "方向：產品創新兼市場學 / 智能製造。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3236"
+    },
+    {
+      "code": "JS3237",
+      "school": "polyu",
+      "nameZh": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學)",
+      "nameEn": "BSc (Hons) Scheme in Intelligent Supply Chain and Engineering Management (Intelligent Supply Chain / Engineering Management with Data Analytics / Aviation Operations and Systems)",
+      "shortName": "INTELLI S C & ENGG MGT",
+      "funding": "UGC-funded",
+      "summary": "方向：智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3237"
+    },
+    {
+      "code": "JS3240",
+      "school": "polyu",
+      "nameZh": "英文及應用語言學(榮譽)文學士",
+      "nameEn": "BA (Hons) in English and Applied Linguistics",
+      "shortName": "ENGL & APP LINGUISTICS",
+      "funding": "UGC-funded",
+      "summary": "課程：英文及應用語言學文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3240"
+    },
+    {
+      "code": "JS3242",
+      "school": "polyu",
+      "nameZh": "言語治療(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Speech Therapy",
+      "shortName": "SPEECH THERAPY",
+      "funding": "UGC-funded",
+      "summary": "課程：言語治療理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3242"
+    },
+    {
+      "code": "JS3243",
+      "school": "polyu",
+      "nameZh": "語言科學及技術(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Language Science and Technology",
+      "shortName": "LANG SCI & TECH",
+      "funding": "UGC-funded",
+      "summary": "課程：語言科學及技術理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3243"
+    },
+    {
+      "code": "JS3250",
+      "school": "polyu",
+      "nameZh": "應用社會科學(榮譽)文學士組合課程 (社會工作 / 社會政策及社會創業)",
+      "nameEn": "BA (Hons) Scheme in Applied Social Sciences (Social Work / Social Policy and Social Entrepreneurship)",
+      "shortName": "APPLIED SOC SCI",
+      "funding": "UGC-funded",
+      "summary": "方向：社會工作 / 社會政策及社會創業。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3250"
+    },
+    {
+      "code": "JS3255",
+      "school": "polyu",
+      "nameZh": "食品科學及營養學(榮譽)理學士組合課程 (食品科技與食物安全 / 人類營養學及健康)",
+      "nameEn": "BSc (Hons) Scheme in Food Science and Nutrition (Food Safety and Technology / Human Nutrition and Health)",
+      "shortName": "FOOD SCI & NUTRITION",
+      "funding": "UGC-funded",
+      "summary": "方向：食品科技與食物安全 / 人類營養學及健康。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3255"
+    },
+    {
+      "code": "JS3290",
+      "school": "polyu",
+      "nameZh": "眼科視光學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Optometry",
+      "shortName": "OPTOMETRY",
+      "funding": "UGC-funded",
+      "summary": "課程：眼科視光學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3290"
+    },
+    {
+      "code": "JS3310",
+      "school": "polyu",
+      "nameZh": "酒店及旅遊管理(榮譽)理學士組合課程 (酒店管理 / 智慧旅遊及酒店產業 / 會展及體驗管理)",
+      "nameEn": "BSc (Hons) Scheme in Hotel and Tourism Management (Hotel Management / Smart Tourism and Hospitality / Event and Experience Management)",
+      "shortName": "HOTEL & TOURISM MGT",
+      "funding": "UGC-funded",
+      "summary": "方向：酒店管理 / 智慧旅遊及酒店產業 / 會展及體驗管理。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3310"
+    },
+    {
+      "code": "JS3320",
+      "school": "polyu",
+      "nameZh": "中國歷史及文化(榮譽)文學士",
+      "nameEn": "BA (Hons) in Chinese History and Culture",
+      "shortName": "CHI HISTORY & CULTURE",
+      "funding": "UGC-funded",
+      "summary": "課程：中國歷史及文化文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3320"
+    },
+    {
+      "code": "JS3337",
+      "school": "polyu",
+      "nameZh": "精神健康護理學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Mental Health Nursing",
+      "shortName": "MENTAL HEALTH NURSING",
+      "funding": "UGC-funded",
+      "summary": "課程：精神健康護理學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3337"
+    },
+    {
+      "code": "JS3375",
+      "school": "polyu",
+      "nameZh": "環境工程及可持續發展學(榮譽)工學士",
+      "nameEn": "BEng (Hons) in Environmental Engineering and Sustainable Development",
+      "shortName": "ENVIR ENGG & SUS DEVELOP",
+      "funding": "UGC-funded",
+      "summary": "課程：環境工程及可持續發展學工學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3375"
+    },
+    {
+      "code": "JS3478",
+      "school": "polyu",
+      "nameZh": "醫療化驗科學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Medical Laboratory Science",
+      "shortName": "MED LAB SCI",
+      "funding": "UGC-funded",
+      "summary": "課程：醫療化驗科學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3478"
+    },
+    {
+      "code": "JS3569",
+      "school": "polyu",
+      "nameZh": "設計學(榮譽)文學士組合課程 (廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計)",
+      "nameEn": "BA (Hons) Scheme in Design (Advertising Design/Environmental Design/Immersive Media and Game Design/Information Design/Interaction Design/Interior Design/Product Design/Service Design/Social Design)",
+      "shortName": "DESIGN",
+      "funding": "UGC-funded",
+      "summary": "方向：廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3569"
+    },
+    {
+      "code": "JS3612",
+      "school": "polyu",
+      "nameZh": "放射學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Radiography",
+      "shortName": "RADIOGRAPHY",
+      "funding": "UGC-funded",
+      "summary": "課程：放射學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3612"
+    },
+    {
+      "code": "JS3624",
+      "school": "polyu",
+      "nameZh": "職業治療學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Occupational Therapy",
+      "shortName": "OCCUPATIONAL THERAPY",
+      "funding": "UGC-funded",
+      "summary": "課程：職業治療學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3624"
+    },
+    {
+      "code": "JS3636",
+      "school": "polyu",
+      "nameZh": "物理治療學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Physiotherapy",
+      "shortName": "PHYSIOTHERAPY",
+      "funding": "UGC-funded",
+      "summary": "課程：物理治療學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3636"
+    },
+    {
+      "code": "JS3648",
+      "school": "polyu",
+      "nameZh": "護理學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Nursing",
+      "shortName": "NURSING",
+      "funding": "UGC-funded",
+      "summary": "課程：護理學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3648"
+    },
+    {
+      "code": "JS3739",
+      "school": "polyu",
+      "nameZh": "土木工程學(榮譽)工學士",
+      "nameEn": "BEng (Hons) in Civil Engineering",
+      "shortName": "CIVIL ENGG",
+      "funding": "UGC-funded",
+      "summary": "課程：土木工程學工學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3739"
+    },
+    {
+      "code": "JS3741",
+      "school": "polyu",
+      "nameZh": "機械工程學(榮譽)工學士組合課程 (智能機械人工程學 / 機械工程學)",
+      "nameEn": "BEng (Hons) Scheme in Mechanical Engineering (Intelligent Robotics Engineering / Mechanical Engineering)",
+      "shortName": "MECHANICAL ENGG",
+      "funding": "UGC-funded",
+      "summary": "方向：智能機械人工程學 / 機械工程學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3741"
+    },
+    {
+      "code": "JS3789",
+      "school": "polyu",
+      "nameZh": "地產及建設測量學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Surveying",
+      "shortName": "SURVEYING",
+      "funding": "UGC-funded",
+      "summary": "課程：地產及建設測量學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3789"
+    },
+    {
+      "code": "JS3791",
+      "school": "polyu",
+      "nameZh": "建築工程及管理學(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Building Engineering and Management",
+      "shortName": "BLDG ENGG & MGT",
+      "funding": "UGC-funded",
+      "summary": "課程：建築工程及管理學理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3791"
+    },
+    {
+      "code": "JS3868",
+      "school": "polyu",
+      "nameZh": "電子計算及人工智能(榮譽)理學士組合課程 (計算機科學 / 企業信息管理)",
+      "nameEn": "BSc (Hons) Scheme in Computing and AI (Computer Science / Enterprise Information Systems)",
+      "shortName": "COMPUTING & AI",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機科學 / 企業信息管理。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3868"
+    },
+    {
+      "code": "JS3923",
+      "school": "polyu",
+      "nameZh": "應用生物兼生物科技(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Applied Biology with Biotechnology",
+      "shortName": "APP BIO WITH BIOTECH",
+      "funding": "UGC-funded",
+      "summary": "課程：應用生物兼生物科技理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3923"
+    },
+    {
+      "code": "JS3997",
+      "school": "polyu",
+      "nameZh": "化學科技(榮譽)理學士",
+      "nameEn": "BSc (Hons) in Chemical Technology",
+      "shortName": "CHEM TECH",
+      "funding": "UGC-funded",
+      "summary": "課程：化學科技理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/polyu/JS3997"
+    },
+    {
+      "code": "JS4006",
+      "school": "cuhk",
+      "nameZh": "人類學",
+      "nameEn": "Anthropology",
+      "shortName": "ANTHROPOLOGY",
+      "funding": "UGC-funded",
+      "summary": "課程：人類學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4006"
+    },
+    {
+      "code": "JS4018",
+      "school": "cuhk",
+      "nameZh": "中國語言及文學",
+      "nameEn": "Chinese Language and Literature",
+      "shortName": "CHI LANG & LIT",
+      "funding": "UGC-funded",
+      "summary": "課程：中國語言及文學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4018"
+    },
+    {
+      "code": "JS4032",
+      "school": "cuhk",
+      "nameZh": "英文",
+      "nameEn": "English",
+      "shortName": "ENGLISH",
+      "funding": "UGC-funded",
+      "summary": "課程：英文。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4032"
+    },
+    {
+      "code": "JS4044",
+      "school": "cuhk",
+      "nameZh": "藝術",
+      "nameEn": "Fine Arts",
+      "shortName": "FINE ARTS",
+      "funding": "UGC-funded",
+      "summary": "課程：藝術。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4044"
+    },
+    {
+      "code": "JS4056",
+      "school": "cuhk",
+      "nameZh": "歷史",
+      "nameEn": "History",
+      "shortName": "HISTORY",
+      "funding": "UGC-funded",
+      "summary": "課程：歷史。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4056"
+    },
+    {
+      "code": "JS4068",
+      "school": "cuhk",
+      "nameZh": "日本研究",
+      "nameEn": "Japanese Studies",
+      "shortName": "JAPANESE STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：日本研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4068"
+    },
+    {
+      "code": "JS4070",
+      "school": "cuhk",
+      "nameZh": "語言學",
+      "nameEn": "Linguistics",
+      "shortName": "LINGUISTICS",
+      "funding": "UGC-funded",
+      "summary": "課程：語言學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4070"
+    },
+    {
+      "code": "JS4082",
+      "school": "cuhk",
+      "nameZh": "音樂",
+      "nameEn": "Music",
+      "shortName": "MUSIC",
+      "funding": "UGC-funded",
+      "summary": "課程：音樂。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4082"
+    },
+    {
+      "code": "JS4094",
+      "school": "cuhk",
+      "nameZh": "哲學",
+      "nameEn": "Philosophy",
+      "shortName": "PHILOSOPHY",
+      "funding": "UGC-funded",
+      "summary": "課程：哲學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4094"
+    },
+    {
+      "code": "JS4100",
+      "school": "cuhk",
+      "nameZh": "公共人文學",
+      "nameEn": "Public Humanities",
+      "shortName": "PUBLIC HUMANITIES",
+      "funding": "UGC-funded",
+      "summary": "課程：公共人文學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4100"
+    },
+    {
+      "code": "JS4109",
+      "school": "cuhk",
+      "nameZh": "宗教研究",
+      "nameEn": "Religious Studies",
+      "shortName": "RELIGION",
+      "funding": "UGC-funded",
+      "summary": "課程：宗教研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4109"
+    },
+    {
+      "code": "JS4111",
+      "school": "cuhk",
+      "nameZh": "神學",
+      "nameEn": "Theology",
+      "shortName": "THEOLOGY",
+      "funding": "UGC-funded",
+      "summary": "課程：神學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4111"
+    },
+    {
+      "code": "JS4123",
+      "school": "cuhk",
+      "nameZh": "翻譯",
+      "nameEn": "Translation",
+      "shortName": "TRANSLATION",
+      "funding": "UGC-funded",
+      "summary": "課程：翻譯。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4123"
+    },
+    {
+      "code": "JS4136",
+      "school": "cuhk",
+      "nameZh": "中國研究",
+      "nameEn": "China Studies",
+      "shortName": "CHINA STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：中國研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4136"
+    },
+    {
+      "code": "JS4202",
+      "school": "cuhk",
+      "nameZh": "工商管理學士綜合課程",
+      "nameEn": "Integrated Bachelor of Business Administration Programme",
+      "shortName": "INTEGRATED BBA",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理學士綜合課程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4202"
+    },
+    {
+      "code": "JS4214",
+      "school": "cuhk",
+      "nameZh": "環球商業學",
+      "nameEn": "Global Business Studies",
+      "shortName": "GBS",
+      "funding": "UGC-funded",
+      "summary": "課程：環球商業學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4214"
+    },
+    {
+      "code": "JS4226",
+      "school": "cuhk",
+      "nameZh": "酒店旅遊及房地產",
+      "nameEn": "Hospitality and Real Estate",
+      "shortName": "HOSP & REAL EST",
+      "funding": "UGC-funded",
+      "summary": "課程：酒店旅遊及房地產。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4226"
+    },
+    {
+      "code": "JS4238",
+      "school": "cuhk",
+      "nameZh": "保險、金融與精算學",
+      "nameEn": "Insurance, Financial and Actuarial Analysis",
+      "shortName": "IFAA",
+      "funding": "UGC-funded",
+      "summary": "課程：保險、金融與精算學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4238"
+    },
+    {
+      "code": "JS4240",
+      "school": "cuhk",
+      "nameZh": "專業會計學",
+      "nameEn": "Professional Accountancy",
+      "shortName": "ACCOUNTING",
+      "funding": "UGC-funded",
+      "summary": "課程：專業會計學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4240"
+    },
+    {
+      "code": "JS4252",
+      "school": "cuhk",
+      "nameZh": "計量金融學",
+      "nameEn": "Quantitative Finance",
+      "shortName": "QFIN",
+      "funding": "UGC-funded",
+      "summary": "課程：計量金融學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4252"
+    },
+    {
+      "code": "JS4254",
+      "school": "cuhk",
+      "nameZh": "環球經濟與金融跨學科主修課程",
+      "nameEn": "Interdisciplinary Major Programme in Global Economics and Finance",
+      "shortName": "GLEF",
+      "funding": "UGC-funded",
+      "summary": "課程：環球經濟與金融跨學科主修課程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4254"
+    },
+    {
+      "code": "JS4264",
+      "school": "cuhk",
+      "nameZh": "工商管理學士（工商管理學士綜合課程）及法律博士雙學位課程",
+      "nameEn": "Bachelor of Business Administration (Integrated BBA Programme) and Juris Doctor Double Degree Programme",
+      "shortName": "BBA-JD",
+      "funding": "UGC-funded",
+      "summary": "方向：工商管理學士綜合課程。名稱列明為雙學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4264"
+    },
+    {
+      "code": "JS4276",
+      "school": "cuhk",
+      "nameZh": "計量金融學及風險管理科學",
+      "nameEn": "Quantitative Finance and Risk Management Science",
+      "shortName": "QFRM",
+      "funding": "UGC-funded",
+      "summary": "課程：計量金融學及風險管理科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4276"
+    },
+    {
+      "code": "JS4320",
+      "school": "cuhk",
+      "nameZh": "人體運動科學與健康研究",
+      "nameEn": "Human Movement Science and Health Studies",
+      "shortName": "HUM MOV SCI & HEALTH STU",
+      "funding": "UGC-funded",
+      "summary": "課程：人體運動科學與健康研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4320"
+    },
+    {
+      "code": "JS4329",
+      "school": "cuhk",
+      "nameZh": "健康與體育運動科學",
+      "nameEn": "Physical Education, Exercise Science and Health",
+      "shortName": "PHY ED, EX SCI & HEALTH",
+      "funding": "UGC-funded",
+      "summary": "課程：健康與體育運動科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4329"
+    },
+    {
+      "code": "JS4331",
+      "school": "cuhk",
+      "nameZh": "文學士 (中國語文研究) 及教育學士 (中國語文教育)",
+      "nameEn": "B.A. (Chinese Language Studies) and B.Ed. (Chinese Language Education)",
+      "shortName": "BA (CHI) BEd (CHI EDU)",
+      "funding": "UGC-funded",
+      "summary": "方向：中國語文研究；中國語文教育。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4331"
+    },
+    {
+      "code": "JS4343",
+      "school": "cuhk",
+      "nameZh": "文學士(英國語文研究)及教育學士(英國語文教育)",
+      "nameEn": "B.A. (English Studies) and B.Ed. (English Language Education)",
+      "shortName": "BA (ENG) BEd (ENG EDU)",
+      "funding": "UGC-funded",
+      "summary": "方向：英國語文研究；英國語文教育。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4343"
+    },
+    {
+      "code": "JS4361",
+      "school": "cuhk",
+      "nameZh": "教育學士(數學及數學教育)",
+      "nameEn": "B.Ed. in Mathematics and Mathematics Education",
+      "shortName": "MATHS EDUCATION",
+      "funding": "UGC-funded",
+      "summary": "方向：數學及數學教育。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4361"
+    },
+    {
+      "code": "JS4372",
+      "school": "cuhk",
+      "nameZh": "教育學士(幼兒教育)",
+      "nameEn": "B.Ed. in Early Childhood Education",
+      "shortName": "BEd (ECE)",
+      "funding": "UGC-funded",
+      "summary": "方向：幼兒教育。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4372"
+    },
+    {
+      "code": "JS4386",
+      "school": "cuhk",
+      "nameZh": "理學士（學習設計與科技）",
+      "nameEn": "B.Sc. in Learning Design and Technology",
+      "shortName": "LEARNING DESIGN AND TECH",
+      "funding": "UGC-funded",
+      "summary": "方向：學習設計與科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4386"
+    },
+    {
+      "code": "JS4408",
+      "school": "cuhk",
+      "nameZh": "機械與自動化工程學",
+      "nameEn": "Mechanical and Automation Engineering",
+      "shortName": "MAEG",
+      "funding": "UGC-funded",
+      "summary": "課程：機械與自動化工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4408"
+    },
+    {
+      "code": "JS4412",
+      "school": "cuhk",
+      "nameZh": "計算機科學與工程",
+      "nameEn": "Computer Science and Engineering",
+      "shortName": "COMPUTER SCI & ENG",
+      "funding": "UGC-funded",
+      "summary": "課程：計算機科學與工程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4412"
+    },
+    {
+      "code": "JS4416",
+      "school": "cuhk",
+      "nameZh": "計算數據科學",
+      "nameEn": "Computational Data Science",
+      "shortName": "CDAS",
+      "funding": "UGC-funded",
+      "summary": "課程：計算數據科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4416"
+    },
+    {
+      "code": "JS4428",
+      "school": "cuhk",
+      "nameZh": "金融科技學",
+      "nameEn": "Financial Technology",
+      "shortName": "BENG FINTECH",
+      "funding": "UGC-funded",
+      "summary": "課程：金融科技學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4428"
+    },
+    {
+      "code": "JS4434",
+      "school": "cuhk",
+      "nameZh": "電子工程學",
+      "nameEn": "Electronic Engineering",
+      "shortName": "ELEG",
+      "funding": "UGC-funded",
+      "summary": "課程：電子工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4434"
+    },
+    {
+      "code": "JS4446",
+      "school": "cuhk",
+      "nameZh": "信息工程學",
+      "nameEn": "Information Engineering",
+      "shortName": "IERGN",
+      "funding": "UGC-funded",
+      "summary": "課程：信息工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4446"
+    },
+    {
+      "code": "JS4458",
+      "school": "cuhk",
+      "nameZh": "系統工程與工程管理",
+      "nameEn": "Systems Engineering and Engineering Management",
+      "shortName": "SEEM",
+      "funding": "UGC-funded",
+      "summary": "課程：系統工程與工程管理。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4458"
+    },
+    {
+      "code": "JS4460",
+      "school": "cuhk",
+      "nameZh": "生物醫學工程學",
+      "nameEn": "Biomedical Engineering",
+      "shortName": "BMEG",
+      "funding": "UGC-funded",
+      "summary": "課程：生物醫學工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4460"
+    },
+    {
+      "code": "JS4462",
+      "school": "cuhk",
+      "nameZh": "能源與環境工程學",
+      "nameEn": "Energy and Environmental Engineering",
+      "shortName": "EEEN",
+      "funding": "UGC-funded",
+      "summary": "課程：能源與環境工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4462"
+    },
+    {
+      "code": "JS4468",
+      "school": "cuhk",
+      "nameZh": "人工智能：系統與科技",
+      "nameEn": "Artificial Intelligence: Systems and Technologies",
+      "shortName": "AIST",
+      "funding": "UGC-funded",
+      "summary": "課程：人工智能：系統與科技。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4468"
+    },
+    {
+      "code": "JS4470",
+      "school": "cuhk",
+      "nameZh": "材料科學與工程學",
+      "nameEn": "Materials Science and Engineering",
+      "shortName": "MATERIALS SCI & ENG",
+      "funding": "UGC-funded",
+      "summary": "課程：材料科學與工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4470"
+    },
+    {
+      "code": "JS4472",
+      "school": "cuhk",
+      "nameZh": "機器人學",
+      "nameEn": "Robotics",
+      "shortName": "ROBOTICS",
+      "funding": "UGC-funded",
+      "summary": "課程：機器人學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4472"
+    },
+    {
+      "code": "JS4501",
+      "school": "cuhk",
+      "nameZh": "內外全科醫學士課程",
+      "nameEn": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+      "shortName": "MBChB",
+      "funding": "UGC-funded",
+      "summary": "課程：內外全科醫學士課程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4501"
+    },
+    {
+      "code": "JS4502",
+      "school": "cuhk",
+      "nameZh": "內外全科醫學士課程環球醫學領袖培訓專修組別",
+      "nameEn": "Bachelor of Medicine and Bachelor of Surgery – Global Physician-Leadership Stream (MBChB-GPS)",
+      "shortName": "MBChB-GPS",
+      "funding": "UGC-funded",
+      "summary": "課程：內外全科醫學士課程環球醫學領袖培訓專修組別。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4502"
+    },
+    {
+      "code": "JS4513",
+      "school": "cuhk",
+      "nameZh": "護理學",
+      "nameEn": "Nursing",
+      "shortName": "NURSING",
+      "funding": "UGC-funded",
+      "summary": "課程：護理學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4513"
+    },
+    {
+      "code": "JS4525",
+      "school": "cuhk",
+      "nameZh": "藥劑學",
+      "nameEn": "Pharmacy",
+      "shortName": "PHARMACY",
+      "funding": "UGC-funded",
+      "summary": "課程：藥劑學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4525"
+    },
+    {
+      "code": "JS4537",
+      "school": "cuhk",
+      "nameZh": "公共衞生",
+      "nameEn": "Public Health",
+      "shortName": "PUBLIC HEALTH",
+      "funding": "UGC-funded",
+      "summary": "課程：公共衞生。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4537"
+    },
+    {
+      "code": "JS4542",
+      "school": "cuhk",
+      "nameZh": "中醫學",
+      "nameEn": "Chinese Medicine",
+      "shortName": "CHIN MEDICINE",
+      "funding": "UGC-funded",
+      "summary": "課程：中醫學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4542"
+    },
+    {
+      "code": "JS4550",
+      "school": "cuhk",
+      "nameZh": "生物醫學",
+      "nameEn": "Biomedical Sciences",
+      "shortName": "BIOMEDICAL SCIENCES",
+      "funding": "UGC-funded",
+      "summary": "課程：生物醫學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4550"
+    },
+    {
+      "code": "JS4601",
+      "school": "cuhk",
+      "nameZh": "理學",
+      "nameEn": "Science",
+      "shortName": "SCIENCE",
+      "funding": "UGC-funded",
+      "summary": "課程：理學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4601"
+    },
+    {
+      "code": "JS4648",
+      "school": "cuhk",
+      "nameZh": "地球與環境科學",
+      "nameEn": "Earth and Environmental Sciences",
+      "shortName": "EESC",
+      "funding": "UGC-funded",
+      "summary": "課程：地球與環境科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4648"
+    },
+    {
+      "code": "JS4682",
+      "school": "cuhk",
+      "nameZh": "數學精研",
+      "nameEn": "Enrichment Mathematics",
+      "shortName": "ENRICHMENT MATHEMATICS",
+      "funding": "UGC-funded",
+      "summary": "課程：數學精研。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4682"
+    },
+    {
+      "code": "JS4690",
+      "school": "cuhk",
+      "nameZh": "理論物理精研",
+      "nameEn": "Enrichment Stream in Theoretical Physics",
+      "shortName": "THEORETICAL PHYSICS",
+      "funding": "UGC-funded",
+      "summary": "課程：理論物理精研。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4690"
+    },
+    {
+      "code": "JS4719",
+      "school": "cuhk",
+      "nameZh": "風險管理科學",
+      "nameEn": "Risk Management Science",
+      "shortName": "RISK MGT SCI",
+      "funding": "UGC-funded",
+      "summary": "課程：風險管理科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4719"
+    },
+    {
+      "code": "JS4725",
+      "school": "cuhk",
+      "nameZh": "生物科技、創業與醫療管理",
+      "nameEn": "Biotechnology, Entrepreneurship and Healthcare Management",
+      "shortName": "BEHM",
+      "funding": "UGC-funded",
+      "summary": "課程：生物科技、創業與醫療管理。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4725"
+    },
+    {
+      "code": "JS4733",
+      "school": "cuhk",
+      "nameZh": "數學與信息工程學",
+      "nameEn": "Mathematics and Information Engineering",
+      "shortName": "MIEGN",
+      "funding": "UGC-funded",
+      "summary": "課程：數學與信息工程學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4733"
+    },
+    {
+      "code": "JS4750",
+      "school": "cuhk",
+      "nameZh": "航天科學與地球信息學及Ｘ雙主修課程",
+      "nameEn": "Aerospace Science and Earth Informatics & X Double Major Programme",
+      "shortName": "ASEIDM",
+      "funding": "UGC-funded",
+      "summary": "課程：航天科學與地球信息學及Ｘ雙主修課程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4750"
+    },
+    {
+      "code": "JS4760",
+      "school": "cuhk",
+      "nameZh": "跨學科數據分析及Ｘ雙主修課程",
+      "nameEn": "Interdisciplinary Data Analytics & X Double Major Programme",
+      "shortName": "IDADM",
+      "funding": "UGC-funded",
+      "summary": "課程：跨學科數據分析及Ｘ雙主修課程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4760"
+    },
+    {
+      "code": "JS4801",
+      "school": "cuhk",
+      "nameZh": "社會科學",
+      "nameEn": "Social Science",
+      "shortName": "SOCIAL SCIENCE",
+      "funding": "UGC-funded",
+      "summary": "課程：社會科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4801"
+    },
+    {
+      "code": "JS4812",
+      "school": "cuhk",
+      "nameZh": "建築學",
+      "nameEn": "Architectural Studies",
+      "shortName": "ARCHITECTURE",
+      "funding": "UGC-funded",
+      "summary": "課程：建築學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4812"
+    },
+    {
+      "code": "JS4824",
+      "school": "cuhk",
+      "nameZh": "經濟學",
+      "nameEn": "Economics",
+      "shortName": "ECONOMICS",
+      "funding": "UGC-funded",
+      "summary": "課程：經濟學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4824"
+    },
+    {
+      "code": "JS4836",
+      "school": "cuhk",
+      "nameZh": "地理與資源管理學",
+      "nameEn": "Geography and Resource Management",
+      "shortName": "GEO & RES MGT",
+      "funding": "UGC-funded",
+      "summary": "課程：地理與資源管理學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4836"
+    },
+    {
+      "code": "JS4838",
+      "school": "cuhk",
+      "nameZh": "城市研究",
+      "nameEn": "Urban Studies",
+      "shortName": "URBAN STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：城市研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4838"
+    },
+    {
+      "code": "JS4848",
+      "school": "cuhk",
+      "nameZh": "政治與行政學",
+      "nameEn": "Government and Public Administration",
+      "shortName": "GOV'T & PUBLIC ADMIN",
+      "funding": "UGC-funded",
+      "summary": "課程：政治與行政學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4848"
+    },
+    {
+      "code": "JS4850",
+      "school": "cuhk",
+      "nameZh": "新聞與傳播學",
+      "nameEn": "Journalism and Communication",
+      "shortName": "JOURNALISM & COMMUN",
+      "funding": "UGC-funded",
+      "summary": "課程：新聞與傳播學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4850"
+    },
+    {
+      "code": "JS4858",
+      "school": "cuhk",
+      "nameZh": "全球傳播",
+      "nameEn": "Global Communication",
+      "shortName": "GLOBAL COMM",
+      "funding": "UGC-funded",
+      "summary": "課程：全球傳播。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4858"
+    },
+    {
+      "code": "JS4862",
+      "school": "cuhk",
+      "nameZh": "心理學",
+      "nameEn": "Psychology",
+      "shortName": "PSYCHOLOGY",
+      "funding": "UGC-funded",
+      "summary": "課程：心理學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4862"
+    },
+    {
+      "code": "JS4874",
+      "school": "cuhk",
+      "nameZh": "社會工作",
+      "nameEn": "Social Work",
+      "shortName": "SOCIAL WORK",
+      "funding": "UGC-funded",
+      "summary": "課程：社會工作。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4874"
+    },
+    {
+      "code": "JS4886",
+      "school": "cuhk",
+      "nameZh": "社會學",
+      "nameEn": "Sociology",
+      "shortName": "SOCIOLOGY",
+      "funding": "UGC-funded",
+      "summary": "課程：社會學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4886"
+    },
+    {
+      "code": "JS4892",
+      "school": "cuhk",
+      "nameZh": "全球研究",
+      "nameEn": "Global Studies",
+      "shortName": "GLOBAL STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：全球研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4892"
+    },
+    {
+      "code": "JS4893",
+      "school": "cuhk",
+      "nameZh": "數據科學與政策研究",
+      "nameEn": "Data Science and Policy Studies",
+      "shortName": "DSPS",
+      "funding": "UGC-funded",
+      "summary": "課程：數據科學與政策研究。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4893"
+    },
+    {
+      "code": "JS4898",
+      "school": "cuhk",
+      "nameZh": "外交與國際事務",
+      "nameEn": "Diplomacy and International Studies",
+      "shortName": "DIPL & INTL STUDIES",
+      "funding": "UGC-funded",
+      "summary": "課程：外交與國際事務。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4898"
+    },
+    {
+      "code": "JS4903",
+      "school": "cuhk",
+      "nameZh": "法學士",
+      "nameEn": "Bachelor of Laws",
+      "shortName": "LLB",
+      "funding": "UGC-funded",
+      "summary": "課程：法學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/cuhk/JS4903"
+    },
+    {
+      "code": "JS5101",
+      "school": "hkust",
+      "nameZh": "國際科研",
+      "nameEn": "International Research Enrichment",
+      "shortName": "IRE",
+      "funding": "UGC-funded",
+      "summary": "課程：國際科研。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5101"
+    },
+    {
+      "code": "JS5102",
+      "school": "hkust",
+      "nameZh": "理學Ａ組",
+      "nameEn": "Science (Group A)",
+      "shortName": "SSCI-A",
+      "funding": "UGC-funded",
+      "summary": "課程：理學Ａ組。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5102"
+    },
+    {
+      "code": "JS5103",
+      "school": "hkust",
+      "nameZh": "理學Ｂ組",
+      "nameEn": "Science (Group B)",
+      "shortName": "SSCI-B",
+      "funding": "UGC-funded",
+      "summary": "課程：理學Ｂ組。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5103"
+    },
+    {
+      "code": "JS5118",
+      "school": "hkust",
+      "nameZh": "理學士（生物醫學及健康科學）",
+      "nameEn": "BSc in Biomedical and Health Sciences",
+      "shortName": "BMH",
+      "funding": "UGC-funded",
+      "summary": "方向：生物醫學及健康科學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5118"
+    },
+    {
+      "code": "JS5181",
+      "school": "hkust",
+      "nameZh": "理學Ａ組– 人工智能延伸主修",
+      "nameEn": "Science (Group A) with Extended Major in Artificial Intelligence",
+      "shortName": "SSCI-A (AI)",
+      "funding": "UGC-funded",
+      "summary": "課程：理學Ａ組–人工智能延伸主修。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5181"
+    },
+    {
+      "code": "JS5212",
+      "school": "hkust",
+      "nameZh": "工學士（計算機工程學）",
+      "nameEn": "BEng in Computer Engineering",
+      "shortName": "CPEG",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機工程學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5212"
+    },
+    {
+      "code": "JS5220",
+      "school": "hkust",
+      "nameZh": "化學及生物工程學系",
+      "nameEn": "Department of Chemical and Biological Engineering",
+      "shortName": "CBE",
+      "funding": "UGC-funded",
+      "summary": "課程：化學及生物工程學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5220"
+    },
+    {
+      "code": "JS5230",
+      "school": "hkust",
+      "nameZh": "土木及環境工程學系",
+      "nameEn": "Department of Civil and Environmental Engineering",
+      "shortName": "CIVL",
+      "funding": "UGC-funded",
+      "summary": "課程：土木及環境工程學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5230"
+    },
+    {
+      "code": "JS5240",
+      "school": "hkust",
+      "nameZh": "計算機科學及工程學系",
+      "nameEn": "Department of Computer Science and Engineering",
+      "shortName": "CSE",
+      "funding": "UGC-funded",
+      "summary": "課程：計算機科學及工程學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5240"
+    },
+    {
+      "code": "JS5250",
+      "school": "hkust",
+      "nameZh": "電子及計算機工程學系",
+      "nameEn": "Department of Electronic and Computer Engineering",
+      "shortName": "ECE",
+      "funding": "UGC-funded",
+      "summary": "課程：電子及計算機工程學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5250"
+    },
+    {
+      "code": "JS5260",
+      "school": "hkust",
+      "nameZh": "工業工程及決策分析學系",
+      "nameEn": "Department of Industrial Engineering and Decision Analytics",
+      "shortName": "IEDA",
+      "funding": "UGC-funded",
+      "summary": "課程：工業工程及決策分析學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5260"
+    },
+    {
+      "code": "JS5270",
+      "school": "hkust",
+      "nameZh": "機械及航空航天工程學系",
+      "nameEn": "Department of Mechanical and Aerospace Engineering",
+      "shortName": "MAE",
+      "funding": "UGC-funded",
+      "summary": "課程：機械及航空航天工程學系。以組合、學院或學系形式招生。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5270"
+    },
+    {
+      "code": "JS5282",
+      "school": "hkust",
+      "nameZh": "工程學 – 人工智能延伸主修",
+      "nameEn": "Engineering with Extended Major in Artificial Intelligence",
+      "shortName": "ENGG+AI",
+      "funding": "UGC-funded",
+      "summary": "課程：工程學–人工智能延伸主修。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5282"
+    },
+    {
+      "code": "JS5300",
+      "school": "hkust",
+      "nameZh": "工商管理",
+      "nameEn": "Business and Management",
+      "shortName": "B&M",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5300"
+    },
+    {
+      "code": "JS5311",
+      "school": "hkust",
+      "nameZh": "工商管理學士（經濟學）",
+      "nameEn": "BBA in Economics",
+      "shortName": "ECON",
+      "funding": "UGC-funded",
+      "summary": "方向：經濟學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5311"
+    },
+    {
+      "code": "JS5312",
+      "school": "hkust",
+      "nameZh": "工商管理學士（金融學）",
+      "nameEn": "BBA in Finance",
+      "shortName": "FINA",
+      "funding": "UGC-funded",
+      "summary": "方向：金融學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5312"
+    },
+    {
+      "code": "JS5313",
+      "school": "hkust",
+      "nameZh": "工商管理學士（環球商業管理）",
+      "nameEn": "BBA in Global Business",
+      "shortName": "GBUS",
+      "funding": "UGC-funded",
+      "summary": "方向：環球商業管理。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5313"
+    },
+    {
+      "code": "JS5314",
+      "school": "hkust",
+      "nameZh": "工商管理學士（資訊系統學）",
+      "nameEn": "BBA in Information Systems",
+      "shortName": "IS",
+      "funding": "UGC-funded",
+      "summary": "方向：資訊系統學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5314"
+    },
+    {
+      "code": "JS5315",
+      "school": "hkust",
+      "nameZh": "工商管理學士（管理學）",
+      "nameEn": "BBA in Management",
+      "shortName": "MGMT",
+      "funding": "UGC-funded",
+      "summary": "方向：管理學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5315"
+    },
+    {
+      "code": "JS5316",
+      "school": "hkust",
+      "nameZh": "工商管理學士（市場學）",
+      "nameEn": "BBA in Marketing",
+      "shortName": "MARK",
+      "funding": "UGC-funded",
+      "summary": "方向：市場學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5316"
+    },
+    {
+      "code": "JS5317",
+      "school": "hkust",
+      "nameZh": "工商管理學士（營運管理學）",
+      "nameEn": "BBA in Operations Management",
+      "shortName": "OM",
+      "funding": "UGC-funded",
+      "summary": "方向：營運管理學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5317"
+    },
+    {
+      "code": "JS5318",
+      "school": "hkust",
+      "nameZh": "工商管理學士（專業會計學）",
+      "nameEn": "BBA in Professional Accounting",
+      "shortName": "ACCT",
+      "funding": "UGC-funded",
+      "summary": "方向：專業會計學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5318"
+    },
+    {
+      "code": "JS5331",
+      "school": "hkust",
+      "nameZh": "理學士（經濟及金融學）",
+      "nameEn": "BSc in Economics and Finance",
+      "shortName": "ECOF",
+      "funding": "UGC-funded",
+      "summary": "方向：經濟及金融學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5331"
+    },
+    {
+      "code": "JS5332",
+      "school": "hkust",
+      "nameZh": "理學士（量化金融學）",
+      "nameEn": "BSc in Quantitative Finance",
+      "shortName": "QFIN",
+      "funding": "UGC-funded",
+      "summary": "方向：量化金融學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5332"
+    },
+    {
+      "code": "JS5411",
+      "school": "hkust",
+      "nameZh": "理學士（環球中國研究）",
+      "nameEn": "BSc in Global China Studies",
+      "shortName": "GCS",
+      "funding": "UGC-funded",
+      "summary": "方向：環球中國研究。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5411"
+    },
+    {
+      "code": "JS5412",
+      "school": "hkust",
+      "nameZh": "理學士（定量社會數據分析）",
+      "nameEn": "BSc in Quantitative Social Analysis",
+      "shortName": "QSA",
+      "funding": "UGC-funded",
+      "summary": "方向：定量社會數據分析。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5412"
+    },
+    {
+      "code": "JS5711",
+      "school": "hkust",
+      "nameZh": "理學士（創新設計與科技）",
+      "nameEn": "BSc in Innovation, Design and Technology",
+      "shortName": "IDT",
+      "funding": "UGC-funded",
+      "summary": "方向：創新設計與科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5711"
+    },
+    {
+      "code": "JS5712",
+      "school": "hkust",
+      "nameZh": "理學士（跨學科自選主修）",
+      "nameEn": "BSc in Individualized Interdisciplinary Major",
+      "shortName": "IIM",
+      "funding": "UGC-funded",
+      "summary": "方向：跨學科自選主修。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5712"
+    },
+    {
+      "code": "JS5811",
+      "school": "hkust",
+      "nameZh": "理學士（生物科技及商學）",
+      "nameEn": "BSc in Biotechnology and Business",
+      "shortName": "BIBU",
+      "funding": "UGC-funded",
+      "summary": "方向：生物科技及商學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5811"
+    },
+    {
+      "code": "JS5812",
+      "school": "hkust",
+      "nameZh": "理學士（環境管理及科技）",
+      "nameEn": "BSc in Environmental Management and Technology",
+      "shortName": "EVMT",
+      "funding": "UGC-funded",
+      "summary": "方向：環境管理及科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5812"
+    },
+    {
+      "code": "JS5813",
+      "school": "hkust",
+      "nameZh": "理學士（數學與經濟學）",
+      "nameEn": "BSc in Mathematics and Economics",
+      "shortName": "MAEC",
+      "funding": "UGC-funded",
+      "summary": "方向：數學與經濟學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5813"
+    },
+    {
+      "code": "JS5814",
+      "school": "hkust",
+      "nameZh": "理學士（風險管理及商業智能學）",
+      "nameEn": "BSc in Risk Management and Business Intelligence",
+      "shortName": "RMBI",
+      "funding": "UGC-funded",
+      "summary": "方向：風險管理及商業智能學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5814"
+    },
+    {
+      "code": "JS5822",
+      "school": "hkust",
+      "nameZh": "理學士（可持續發展及綠色金融）",
+      "nameEn": "BSc in Sustainable and Green Finance",
+      "shortName": "SGFN",
+      "funding": "UGC-funded",
+      "summary": "方向：可持續發展及綠色金融。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5822"
+    },
+    {
+      "code": "JS5901",
+      "school": "hkust",
+      "nameZh": "科技及管理學雙學位課程",
+      "nameEn": "BEng/BSc & BBA Dual Degree Program in Technology & Management",
+      "shortName": "T&M-DDP",
+      "funding": "UGC-funded",
+      "summary": "課程：科技及管理學雙學位課程。名稱列明為雙學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hkust/JS5901"
+    },
+    {
+      "code": "JS6004",
+      "school": "hku",
+      "nameZh": "建築學文學士",
+      "nameEn": "Bachelor of Arts in Architectural Studies",
+      "shortName": "BA(AS)",
+      "funding": "UGC-funded",
+      "summary": "課程：建築學文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6004"
+    },
+    {
+      "code": "JS6016",
+      "school": "hku",
+      "nameZh": "理學士(測量學)",
+      "nameEn": "Bachelor of Science in Surveying",
+      "shortName": "BSc(Surv)",
+      "funding": "UGC-funded",
+      "summary": "方向：測量學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6016"
+    },
+    {
+      "code": "JS6028",
+      "school": "hku",
+      "nameZh": "園境學文學士",
+      "nameEn": "Bachelor of Arts in Landscape Studies",
+      "shortName": "BA(LS)",
+      "funding": "UGC-funded",
+      "summary": "課程：園境學文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6028"
+    },
+    {
+      "code": "JS6042",
+      "school": "hku",
+      "nameZh": "文學士(城市研究)",
+      "nameEn": "Bachelor of Arts in Urban Studies",
+      "shortName": "BA(US)",
+      "funding": "UGC-funded",
+      "summary": "方向：城市研究。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6042"
+    },
+    {
+      "code": "JS6054",
+      "school": "hku",
+      "nameZh": "文學士",
+      "nameEn": "Bachelor of Arts",
+      "shortName": "BA",
+      "funding": "UGC-funded",
+      "summary": "課程：文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6054"
+    },
+    {
+      "code": "JS6066",
+      "school": "hku",
+      "nameZh": "文學士及教育學士(語文教育) - 英文教育",
+      "nameEn": "Bachelor of Arts and Bachelor of Education in Language Education - English",
+      "shortName": "BA&BEd(LangEd)-Eng",
+      "funding": "UGC-funded",
+      "summary": "方向：語文教育。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6066"
+    },
+    {
+      "code": "JS6078",
+      "school": "hku",
+      "nameZh": "文學士及法學士",
+      "nameEn": "Bachelor of Arts and Bachelor of Laws",
+      "shortName": "BA&LLB",
+      "funding": "UGC-funded",
+      "summary": "課程：文學士及法學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6078"
+    },
+    {
+      "code": "JS6080",
+      "school": "hku",
+      "nameZh": "文學士及教育學士(語文教育) - 中文教育",
+      "nameEn": "Bachelor of Arts and Bachelor of Education in Language Education - Chinese",
+      "shortName": "BA&BEd(LangEd)-Chin",
+      "funding": "UGC-funded",
+      "summary": "方向：語文教育。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6080"
+    },
+    {
+      "code": "JS6092",
+      "school": "hku",
+      "nameZh": "教育學士(幼兒教育及特殊教育)",
+      "nameEn": "Bachelor of Education in Early Childhood Education and Special Education",
+      "shortName": "BEd(ECE&SE)",
+      "funding": "UGC-funded",
+      "summary": "方向：幼兒教育及特殊教育。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6092"
+    },
+    {
+      "code": "JS6107",
+      "school": "hku",
+      "nameZh": "牙醫學士",
+      "nameEn": "Bachelor of Dental Surgery",
+      "shortName": "BDS",
+      "funding": "UGC-funded",
+      "summary": "課程：牙醫學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6107"
+    },
+    {
+      "code": "JS6119",
+      "school": "hku",
+      "nameZh": "教育學士及理學士",
+      "nameEn": "Bachelor of Education and Bachelor of Science",
+      "shortName": "BEd&BSc",
+      "funding": "UGC-funded",
+      "summary": "課程：教育學士及理學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6119"
+    },
+    {
+      "code": "JS6133",
+      "school": "hku",
+      "nameZh": "文學士精英課程",
+      "nameEn": "Bachelor of Arts Elite Programme",
+      "shortName": "BA(Elite)",
+      "funding": "UGC-funded",
+      "summary": "課程：文學士精英課程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6133"
+    },
+    {
+      "code": "JS6157",
+      "school": "hku",
+      "nameZh": "理學士(言語及語言病理學)",
+      "nameEn": "Bachelor of Science in Speech-Language Pathology",
+      "shortName": "BSc(SLP)",
+      "funding": "UGC-funded",
+      "summary": "方向：言語及語言病理學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6157"
+    },
+    {
+      "code": "JS6200",
+      "school": "hku",
+      "nameZh": "計算與數據科學(港滬科技菁英)",
+      "nameEn": "Computing and Data Science (Delta+)",
+      "shortName": "CDS(Delta+)",
+      "funding": "UGC-funded",
+      "summary": "方向：港滬科技菁英。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6200"
+    },
+    {
+      "code": "JS6224",
+      "school": "hku",
+      "nameZh": "文理學士(應用人工智能)",
+      "nameEn": "Bachelor of Arts and Sciences in Applied Artificial Intelligence",
+      "shortName": "BASc(AppliedAI)",
+      "funding": "UGC-funded",
+      "summary": "方向：應用人工智能。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6224"
+    },
+    {
+      "code": "JS6236",
+      "school": "hku",
+      "nameZh": "文理學士(設計＋)",
+      "nameEn": "Bachelor of Arts and Sciences in Design+",
+      "shortName": "BASc(Design+)",
+      "funding": "UGC-funded",
+      "summary": "方向：設計＋。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6236"
+    },
+    {
+      "code": "JS6248",
+      "school": "hku",
+      "nameZh": "文理學士(金融科技)",
+      "nameEn": "Bachelor of Arts and Sciences in Financial Technology",
+      "shortName": "BASc(FinTech)",
+      "funding": "UGC-funded",
+      "summary": "方向：金融科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6248"
+    },
+    {
+      "code": "JS6250",
+      "school": "hku",
+      "nameZh": "文理學士(環球衞生及發展)",
+      "nameEn": "Bachelor of Arts and Sciences in Global Health and Development",
+      "shortName": "BASc(GHD)",
+      "funding": "UGC-funded",
+      "summary": "方向：環球衞生及發展。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6250"
+    },
+    {
+      "code": "JS6274",
+      "school": "hku",
+      "nameZh": "文學士(全球創意產業)",
+      "nameEn": "Bachelor of Arts in Global Creative Industries",
+      "shortName": "BA(GCIN)",
+      "funding": "UGC-funded",
+      "summary": "方向：全球創意產業。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6274"
+    },
+    {
+      "code": "JS6286",
+      "school": "hku",
+      "nameZh": "文學士(人文及數碼科技)",
+      "nameEn": "Bachelor of Arts in Humanities and Digital Technologies",
+      "shortName": "BA(HDT)",
+      "funding": "UGC-funded",
+      "summary": "方向：人文及數碼科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6286"
+    },
+    {
+      "code": "JS6298",
+      "school": "hku",
+      "nameZh": "文學士及工學學士(人工智能及數據科學)",
+      "nameEn": "Bachelor of Arts and Bachelor of Engineering in Artificial Intelligence and Data Science",
+      "shortName": "BA&BEng(AI&DataSc)",
+      "funding": "UGC-funded",
+      "summary": "方向：人工智能及數據科學。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6298"
+    },
+    {
+      "code": "JS6303",
+      "school": "hku",
+      "nameZh": "工學學士精英課程",
+      "nameEn": "Bachelor of Engineering Elite Programme",
+      "shortName": "BEng(Elite)",
+      "funding": "UGC-funded",
+      "summary": "課程：工學學士精英課程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6303"
+    },
+    {
+      "code": "JS6315",
+      "school": "hku",
+      "nameZh": "工學學士(數據與系統工程)",
+      "nameEn": "Bachelor of Engineering in Data and Systems Engineering",
+      "shortName": "BEng(DASE)",
+      "funding": "UGC-funded",
+      "summary": "方向：數據與系統工程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6315"
+    },
+    {
+      "code": "JS6339",
+      "school": "hku",
+      "nameZh": "工學學士(機械工程)",
+      "nameEn": "Bachelor of Engineering in Mechanical Engineering",
+      "shortName": "BEng(ME)",
+      "funding": "UGC-funded",
+      "summary": "方向：機械工程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6339"
+    },
+    {
+      "code": "JS6353",
+      "school": "hku",
+      "nameZh": "工學學士(土木工程)",
+      "nameEn": "Bachelor of Engineering in Civil Engineering",
+      "shortName": "BEng(CivE)",
+      "funding": "UGC-funded",
+      "summary": "方向：土木工程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6353"
+    },
+    {
+      "code": "JS6365",
+      "school": "hku",
+      "nameZh": "工學學士(機器人工程學)",
+      "nameEn": "Bachelor of Engineering in Robotics Engineering",
+      "shortName": "BEng(Robo)",
+      "funding": "UGC-funded",
+      "summary": "方向：機器人工程學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6365"
+    },
+    {
+      "code": "JS6377",
+      "school": "hku",
+      "nameZh": "工學學士與人工智能理學碩士聯合課程",
+      "nameEn": "Bachelor of Engineering and Master of Science in Engineering in Artificial Intelligence in Engineering",
+      "shortName": "BEng X + MScEng AIE",
+      "funding": "UGC-funded",
+      "summary": "課程：工學學士與人工智能理學碩士聯合課程。屬學士與碩士聯合課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6377"
+    },
+    {
+      "code": "JS6406",
+      "school": "hku",
+      "nameZh": "法學士",
+      "nameEn": "Bachelor of Laws",
+      "shortName": "LLB",
+      "funding": "UGC-funded",
+      "summary": "課程：法學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6406"
+    },
+    {
+      "code": "JS6418",
+      "school": "hku",
+      "nameZh": "護理學學士菁英領袖培育專修組別",
+      "nameEn": "Bachelor of Nursing Advanced Leadership Track",
+      "shortName": "BNurs-ALT",
+      "funding": "UGC-funded",
+      "summary": "課程：護理學學士菁英領袖培育專修組別。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6418"
+    },
+    {
+      "code": "JS6456",
+      "school": "hku",
+      "nameZh": "內外全科醫學士",
+      "nameEn": "Bachelor of Medicine and Bachelor of Surgery",
+      "shortName": "MBBS",
+      "funding": "UGC-funded",
+      "summary": "課程：內外全科醫學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6456"
+    },
+    {
+      "code": "JS6468",
+      "school": "hku",
+      "nameZh": "護理學學士",
+      "nameEn": "Bachelor of Nursing",
+      "shortName": "BNurs",
+      "funding": "UGC-funded",
+      "summary": "課程：護理學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6468"
+    },
+    {
+      "code": "JS6482",
+      "school": "hku",
+      "nameZh": "中醫全科學士",
+      "nameEn": "Bachelor of Chinese Medicine",
+      "shortName": "BChinMed",
+      "funding": "UGC-funded",
+      "summary": "課程：中醫全科學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6482"
+    },
+    {
+      "code": "JS6494",
+      "school": "hku",
+      "nameZh": "藥劑學學士",
+      "nameEn": "Bachelor of Pharmacy",
+      "shortName": "BPharm",
+      "funding": "UGC-funded",
+      "summary": "課程：藥劑學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6494"
+    },
+    {
+      "code": "JS6602",
+      "school": "hku",
+      "nameZh": "理學士(創新與科技)",
+      "nameEn": "Bachelor of Science in Innovation and Technology",
+      "shortName": "BSc(I&T)",
+      "funding": "UGC-funded",
+      "summary": "方向：創新與科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6602"
+    },
+    {
+      "code": "JS6626",
+      "school": "hku",
+      "nameZh": "內外全科醫學士 - 傑出醫科學人",
+      "nameEn": "Bachelor of Medicine and Bachelor of Surgery (Distinguished MedScholar)",
+      "shortName": "MBBS(DMS)",
+      "funding": "UGC-funded",
+      "summary": "課程：內外全科醫學士-傑出醫科學人。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6626"
+    },
+    {
+      "code": "JS6688",
+      "school": "hku",
+      "nameZh": "科研專才啟導課程",
+      "nameEn": "Science Master Class",
+      "shortName": "SMC",
+      "funding": "UGC-funded",
+      "summary": "課程：科研專才啟導課程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6688"
+    },
+    {
+      "code": "JS6705",
+      "school": "hku",
+      "nameZh": "心理學學士",
+      "nameEn": "Bachelor of Psychology",
+      "shortName": "BPsych",
+      "funding": "UGC-funded",
+      "summary": "課程：心理學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6705"
+    },
+    {
+      "code": "JS6717",
+      "school": "hku",
+      "nameZh": "社會科學學士",
+      "nameEn": "Bachelor of Social Sciences",
+      "shortName": "BSocSc",
+      "funding": "UGC-funded",
+      "summary": "課程：社會科學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6717"
+    },
+    {
+      "code": "JS6729",
+      "school": "hku",
+      "nameZh": "理學士(精算學)",
+      "nameEn": "Bachelor of Science in Actuarial Science",
+      "shortName": "BSc(ActuarSc)",
+      "funding": "UGC-funded",
+      "summary": "方向：精算學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6729"
+    },
+    {
+      "code": "JS6731",
+      "school": "hku",
+      "nameZh": "社會工作學學士",
+      "nameEn": "Bachelor of Social Work",
+      "shortName": "BSW",
+      "funding": "UGC-funded",
+      "summary": "課程：社會工作學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6731"
+    },
+    {
+      "code": "JS6755",
+      "school": "hku",
+      "nameZh": "工商管理學學士",
+      "nameEn": "Bachelor of Business Administration",
+      "shortName": "BBA",
+      "funding": "UGC-funded",
+      "summary": "課程：工商管理學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6755"
+    },
+    {
+      "code": "JS6767",
+      "school": "hku",
+      "nameZh": "經濟學學士 / 經濟金融學學士",
+      "nameEn": "Bachelor of Economics / Bachelor of Economics and Finance",
+      "shortName": "BEcon/BEcon&Fin",
+      "funding": "UGC-funded",
+      "summary": "課程：經濟學學士/經濟金融學學士。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6767"
+    },
+    {
+      "code": "JS6779",
+      "school": "hku",
+      "nameZh": "統計決策科學",
+      "nameEn": "Statistical Decision Sciences",
+      "shortName": "SDS",
+      "funding": "UGC-funded",
+      "summary": "課程：統計決策科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6779"
+    },
+    {
+      "code": "JS6781",
+      "school": "hku",
+      "nameZh": "工商管理學學士(會計及財務) / 工商管理學學士(會計數據分析)",
+      "nameEn": "Bachelor of Business Administration in Accounting and Finance / Bachelor of Business Administration in Accounting Data Analytics",
+      "shortName": "BBA(Acc&Fin)/BBA(ADA)",
+      "funding": "UGC-funded",
+      "summary": "方向：會計及財務；會計數據分析。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6781"
+    },
+    {
+      "code": "JS6793",
+      "school": "hku",
+      "nameZh": "工商管理學學士(商業分析)",
+      "nameEn": "Bachelor of Business Administration (Business Analytics)",
+      "shortName": "BBA(BA)",
+      "funding": "UGC-funded",
+      "summary": "方向：商業分析。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6793"
+    },
+    {
+      "code": "JS6808",
+      "school": "hku",
+      "nameZh": "工商管理學學士(法學)及法學士",
+      "nameEn": "Bachelor of Business Administration (Law) and Bachelor of Laws",
+      "shortName": "BBA(Law)&LLB",
+      "funding": "UGC-funded",
+      "summary": "方向：法學。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6808"
+    },
+    {
+      "code": "JS6810",
+      "school": "hku",
+      "nameZh": "社會科學學士(政治學與法學)及法學士",
+      "nameEn": "Bachelor of Social Sciences (Government and Laws) and Bachelor of Laws",
+      "shortName": "BSocSc(Govt&Laws)&LLB",
+      "funding": "UGC-funded",
+      "summary": "方向：政治學與法學。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6810"
+    },
+    {
+      "code": "JS6822",
+      "school": "hku",
+      "nameZh": "新聞媒體及人工智能學士",
+      "nameEn": "Bachelor of Journalism, Media and Artificial Intelligence",
+      "shortName": "BJMAI",
+      "funding": "UGC-funded",
+      "summary": "課程：新聞媒體及人工智能學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6822"
+    },
+    {
+      "code": "JS6846",
+      "school": "hku",
+      "nameZh": "理學士(營銷分析及科技)",
+      "nameEn": "Bachelor of Science in Marketing Analytics and Technology",
+      "shortName": "BSc(MAT)",
+      "funding": "UGC-funded",
+      "summary": "方向：營銷分析及科技。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6846"
+    },
+    {
+      "code": "JS6858",
+      "school": "hku",
+      "nameZh": "理學士及法學士",
+      "nameEn": "Bachelor of Science and Bachelor of Laws",
+      "shortName": "BSc&LLB",
+      "funding": "UGC-funded",
+      "summary": "課程：理學士及法學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6858"
+    },
+    {
+      "code": "JS6860",
+      "school": "hku",
+      "nameZh": "金融學學士(資產管理及私人銀行)",
+      "nameEn": "Bachelor of Finance in Asset Management and Private Banking",
+      "shortName": "BFin(AMPB)",
+      "funding": "UGC-funded",
+      "summary": "方向：資產管理及私人銀行。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6860"
+    },
+    {
+      "code": "JS6884",
+      "school": "hku",
+      "nameZh": "理學士(計量金融)",
+      "nameEn": "Bachelor of Science in Quantitative Finance",
+      "shortName": "BSc(QFin)",
+      "funding": "UGC-funded",
+      "summary": "方向：計量金融。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6884"
+    },
+    {
+      "code": "JS6896",
+      "school": "hku",
+      "nameZh": "工商管理學學士(國際商業及環球管理)",
+      "nameEn": "Bachelor of Business Administration in International Business and Global Management",
+      "shortName": "BBA(IBGM)",
+      "funding": "UGC-funded",
+      "summary": "方向：國際商業及環球管理。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6896"
+    },
+    {
+      "code": "JS6901",
+      "school": "hku",
+      "nameZh": "理學士",
+      "nameEn": "Bachelor of Science",
+      "shortName": "BSc",
+      "funding": "UGC-funded",
+      "summary": "課程：理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6901"
+    },
+    {
+      "code": "JS6925",
+      "school": "hku",
+      "nameZh": "工學學士(生物醫學工程)",
+      "nameEn": "Bachelor of Engineering in Biomedical Engineering",
+      "shortName": "BEng(BME)",
+      "funding": "UGC-funded",
+      "summary": "方向：生物醫學工程。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6925"
+    },
+    {
+      "code": "JS6937",
+      "school": "hku",
+      "nameZh": "環球工程與商業課程",
+      "nameEn": "Global Engineering and Business Programme",
+      "shortName": "GEBP",
+      "funding": "UGC-funded",
+      "summary": "課程：環球工程與商業課程。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6937"
+    },
+    {
+      "code": "JS6949",
+      "school": "hku",
+      "nameZh": "生物醫學學士",
+      "nameEn": "Bachelor of Biomedical Sciences",
+      "shortName": "BBiomedSc",
+      "funding": "UGC-funded",
+      "summary": "課程：生物醫學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6949"
+    },
+    {
+      "code": "JS6987",
+      "school": "hku",
+      "nameZh": "工學學士(計算機工程/電機工程/電子工程)",
+      "nameEn": "Bachelor of Engineering in Computer Engineering / Electrical Engineering / Electronic Engineering",
+      "shortName": "BEng(CE/EE/ElecE)",
+      "funding": "UGC-funded",
+      "summary": "方向：計算機工程/電機工程/電子工程。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6987"
+    },
+    {
+      "code": "JS6999",
+      "school": "hku",
+      "nameZh": "計算與數據科學",
+      "nameEn": "Computing and Data Science",
+      "shortName": "CDS",
+      "funding": "UGC-funded",
+      "summary": "課程：計算與數據科學。以此名稱列於官方招生目錄。",
+      "url": "https://www.jupas.edu.hk/tc/programme/hku/JS6999"
+    },
+    {
+      "code": "JS7101",
+      "school": "lingnanu",
+      "nameZh": "中文(榮譽)文學士(課程特色: 中國語言與文學/創意寫作/數字人文)",
+      "nameEn": "Bachelor of Arts (Honours) in Chinese (Features: Chinese Language & Literature/Creative Writing/Digital Literature)",
+      "shortName": "BA (Hons) Chinese",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色: 中國語言與文學/創意寫作/數字人文。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7101"
+    },
+    {
+      "code": "JS7123",
+      "school": "lingnanu",
+      "nameZh": "環球可持續發展(榮譽)博雅學士(專修: 政策和機構/文化及社區/商業及經濟/人類與環境的互動)",
+      "nameEn": "Bachelor of Liberal Arts (Hons) in Global Development and Sustainability (Concentrations: Policy & Institutions/Culture & Community/Business & Economy/Human-Environment Interactions)",
+      "shortName": "BLA (Hons) GDS",
+      "funding": "UGC-funded",
+      "summary": "方向：專修: 政策和機構/文化及社區/商業及經濟/人類與環境的互動。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7123"
+    },
+    {
+      "code": "JS7133",
+      "school": "lingnanu",
+      "nameZh": "動畫及數碼藝術(榮譽)文學士(專修: 數碼動畫/藝術與科技)",
+      "nameEn": "Bachelor of Arts (Honours) in Animation and Digital Arts (Concentrations: Digital Animation/Arts & Technology)",
+      "shortName": "BA (Hons) ADA",
+      "funding": "UGC-funded",
+      "summary": "方向：專修: 數碼動畫/藝術與科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7133"
+    },
+    {
+      "code": "JS7204",
+      "school": "lingnanu",
+      "nameZh": "跨語傳意及語言科技（榮譽）文學士 (專修: 翻譯及跨文化傳意 / 人工智能與企業傳訊)",
+      "nameEn": "BA (Hons) in Interlingual Communication and Language Technology (Concentrations: Translation and Cross-cultural Communication / AI and Corporate Communication)",
+      "shortName": "BA (Hons) ICLT",
+      "funding": "UGC-funded",
+      "summary": "方向：專修: 翻譯及跨文化傳意 / 人工智能與企業傳訊。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7204"
+    },
+    {
+      "code": "JS7211",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-會計與企業管治 (專修: 專業會計/企業管治)(課程特色:學生精進計劃/業內實習)",
+      "nameEn": "Bachelor of Business Administration (Honours)-Accounting and Corporate Governance (Concentrations: Professional Accounting/Corporate Governance)(Features: Enhancement Programme/Industry Internship)",
+      "shortName": "BBA (Hons) ACG",
+      "funding": "UGC-funded",
+      "summary": "方向：專修: 專業會計/企業管治；課程特色:學生精進計劃/業內實習。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7211"
+    },
+    {
+      "code": "JS7212",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-商業分析與創新 (課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能)",
+      "nameEn": "Bachelor of Business Administration (Honours)-Business Analytics & Innovation (Features: e-Business/Information Systems/Operations Management/Data Science/Artificial Intelligence)",
+      "shortName": "BBA (Hons) BAI",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7212"
+    },
+    {
+      "code": "JS7213",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-金融(課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技)",
+      "nameEn": "Bachelor of Business Administration (Honours)-Finance(Features:CFA Student Scholarship/Diverse Electives: Investment,Corporate Finance,FinTech)",
+      "shortName": "BBA (Hons) FIN",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7213"
+    },
+    {
+      "code": "JS7214",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-管理與分析 (專修:環球商業管理與分析/人力資源管理與分析)(課程特色:專業會員資格/實習與導師計劃)",
+      "nameEn": "Bachelor of Business Administration (Honours)-Management and Analytics (Concentration:Global Business Management & Analytics/Human Resource Management & Analytics)(Feature:Professional Membership)",
+      "shortName": "BBA (Hons) MA",
+      "funding": "UGC-funded",
+      "summary": "方向：專修:環球商業管理與分析/人力資源管理與分析；課程特色:專業會員資格/實習與導師計劃。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7214"
+    },
+    {
+      "code": "JS7215",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-市場學及社交媒體 (課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研)",
+      "nameEn": "Bachelor of Business Administration (Honours)-Marketing and Social Media(Features: Integrated Marketing/Social Media & Digital Marketing/Consumer Behaviour & Marketing Research)",
+      "shortName": "BBA (Hons) MSM",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7215"
+    },
+    {
+      "code": "JS7216",
+      "school": "lingnanu",
+      "nameZh": "工商管理(榮譽)學士-風險及保險管理(可選專修: 保險科技)(課程特色: 專業國際資格認證/專屬師友計劃)",
+      "nameEn": "Bachelor of Business Administration (Honours) in Risk and Insurance Management (Optional Concentration: Insurance Technology)(Features: Globally Recognised Qualifications/Exclusive Mentorship)",
+      "shortName": "BBA (Hons) in RIM",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 保險科技；課程特色: 專業國際資格認證/專屬師友計劃。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7216"
+    },
+    {
+      "code": "JS7225",
+      "school": "lingnanu",
+      "nameZh": "數據科學(榮譽)理學士 (課程特色：大數據分析/深度學習/生成式人工智能)",
+      "nameEn": "Bachelor of Science (Honours) in Data Science (Features: Big Data Analytics/Deep Learning/Generative AI)",
+      "shortName": "BSc (Hons) Data Science",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色：大數據分析/深度學習/生成式人工智能。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7225"
+    },
+    {
+      "code": "JS7301",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士-經濟學 (可選專修: 環球經濟與銀行)",
+      "nameEn": "Bachelor of Social Sciences (Honours)-Economics (Optional Concentration: Global Economics & Banking)",
+      "shortName": "BSocSc (Hons) Economics",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 環球經濟與銀行。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7301"
+    },
+    {
+      "code": "JS7302",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士 - 政府與國際事務學",
+      "nameEn": "Bachelor of Social Sciences (Honours) - Government and International Affairs",
+      "shortName": "BSocSc (Hons) Gov't & IA",
+      "funding": "UGC-funded",
+      "summary": "課程：社會科學學士-政府與國際事務學。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7302"
+    },
+    {
+      "code": "JS7303",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士-心理學 (可選專修: 輔導心理學/工業與組織心理學)",
+      "nameEn": "Bachelor of Social Sciences (Honours)-Psychology (Optional Concentrations: Counselling Psychology/Industrial & Organisational Psychology)",
+      "shortName": "BSocSc (Hons) Psychology",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 輔導心理學/工業與組織心理學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7303"
+    },
+    {
+      "code": "JS7304",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士-社會學 (可選專修: 社會創新與社會研究)",
+      "nameEn": "Bachelor of Social Sciences (Honours)-Sociology (Optional Concentration: Social Innovation & Social Studies)",
+      "shortName": "BSocSc (Hons) Sociology",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 社會創新與社會研究。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7304"
+    },
+    {
+      "code": "JS7305",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士 - 健康及社會服務管理",
+      "nameEn": "Bachelor of Social Sciences (Honours) - Health and Social Services Management",
+      "shortName": "BSocSc (Hons) HSSM",
+      "funding": "UGC-funded",
+      "summary": "課程：社會科學學士-健康及社會服務管理。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7305"
+    },
+    {
+      "code": "JS7306",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士-社會與公共政策研究 (可選專修: 智慧城市與數碼社會)",
+      "nameEn": "Bachelor of Social Sciences (Honours)-Social and Public Policy Studies (Optional Concentration: Smart Cities & Digital Society)",
+      "shortName": "BSocSc (Hons) SPPS",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 智慧城市與數碼社會。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7306"
+    },
+    {
+      "code": "JS7307",
+      "school": "lingnanu",
+      "nameZh": "社會科學(榮譽)學士-社會數據科學 (專修: 經濟學/政府與國際事務學 /心理學/社會學)",
+      "nameEn": "Bachelor of Social Sciences (Honours)-Social Data Science (Concentrations: Economics/Government and International Affairs/Psychology/Sociology)",
+      "shortName": "BSocSc (Hons) SocDS",
+      "funding": "UGC-funded",
+      "summary": "方向：專修: 經濟學/政府與國際事務學 /心理學/社會學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7307"
+    },
+    {
+      "code": "JS7503",
+      "school": "lingnanu",
+      "nameZh": "英語語言文學課程(榮譽)文學士 (可選專修: 文學/語言學)",
+      "nameEn": "Bachelor of Arts (Honours) in English Studies (Optional Concentrations: Literature/Linguistics)",
+      "shortName": "BA (Hons) Eng Studies",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 文學/語言學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7503"
+    },
+    {
+      "code": "JS7606",
+      "school": "lingnanu",
+      "nameZh": "文化研究(榮譽)文學士 (可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力)",
+      "nameEn": "Bachelor of Arts (Honours) in Cultural Studies (Optional Concentrations: Digital Culture & Media Practices/Cultural Commons, Social Innovation & Creativity)",
+      "shortName": "BA (Hons) Cultural Stud",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7606"
+    },
+    {
+      "code": "JS7709",
+      "school": "lingnanu",
+      "nameZh": "歷史(榮譽)文學士 (可選專修: 亞洲史/全球史)",
+      "nameEn": "Bachelor of Arts (Honours) in History (Optional Concentrations: Asian History/Global History)",
+      "shortName": "BA (Hons) History",
+      "funding": "UGC-funded",
+      "summary": "方向：可選專修: 亞洲史/全球史。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7709"
+    },
+    {
+      "code": "JS7802",
+      "school": "lingnanu",
+      "nameZh": "哲學(榮譽)文學士 (課程特色:價值論/人工智能哲學/思考方法)",
+      "nameEn": "Bachelor of Arts (Honours) in Philosophy (Features: Ethics/Philosophy of AI/Logic)",
+      "shortName": "BA (Hons) Philosophy",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色:價值論/人工智能哲學/思考方法。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7802"
+    },
+    {
+      "code": "JS7905",
+      "school": "lingnanu",
+      "nameZh": "電影與視覺藝術(榮譽)文學士(課程特色: 電影研究/環球媒體/藝術史/博物館學)",
+      "nameEn": "Bachelor of Arts (Honours) in Film and Visual Arts (Features: Film Studies/Global Media/Art History/Museum Studies)",
+      "shortName": "BA (Hons) FVA",
+      "funding": "UGC-funded",
+      "summary": "方向：課程特色: 電影研究/環球媒體/藝術史/博物館學。此編號列有不同課程或專修選項。",
+      "url": "https://www.jupas.edu.hk/tc/programme/lingnanu/JS7905"
+    },
+    {
+      "code": "JS8001",
+      "school": "eduhk",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士及音樂教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Music)",
+      "shortName": "BA(CDA)&BEd(MU)",
+      "funding": "UGC-funded",
+      "summary": "課程：創意藝術與數碼藝術文學士及音樂教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8001"
+    },
+    {
+      "code": "JS8002",
+      "school": "eduhk",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士及視覺藝術教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in Creative and Digital Arts and Bachelor of Education (Honours) (Visual Arts)",
+      "shortName": "BA(CDA)&BEd(VA)",
+      "funding": "UGC-funded",
+      "summary": "課程：創意藝術與數碼藝術文學士及視覺藝術教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8002"
+    },
+    {
+      "code": "JS8003",
+      "school": "eduhk",
+      "nameZh": "數碼中國文化與傳意榮譽文學士及中文教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in Digital Chinese Culture and Communication and Bachelor of Education (Honours) (Chinese Language)",
+      "shortName": "BA(DCCC)&BEd(CL)",
+      "funding": "UGC-funded",
+      "summary": "課程：數碼中國文化與傳意文學士及中文教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8003"
+    },
+    {
+      "code": "JS8004",
+      "school": "eduhk",
+      "nameZh": "英語研究及數碼傳訊榮譽文學士及英文教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in English Studies and Digital Communication and Bachelor of Education (Honours) (English Language)",
+      "shortName": "BA(ESDC)&BEd(EL)",
+      "funding": "UGC-funded",
+      "summary": "課程：英語研究及數碼傳訊文學士及英文教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8004"
+    },
+    {
+      "code": "JS8005",
+      "school": "eduhk",
+      "nameZh": "文化傳承教育與藝術管理榮譽文學士及中國歷史教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in Heritage Education and Arts Management and Bachelor of Education (Honours) (Chinese History)",
+      "shortName": "BA(HE&AM)&BEd(CHI HIST)",
+      "funding": "UGC-funded",
+      "summary": "課程：文化傳承教育與藝術管理文學士及中國歷史教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8005"
+    },
+    {
+      "code": "JS8006",
+      "school": "eduhk",
+      "nameZh": "心理學榮譽社會科學學士及幼兒教育榮譽學士",
+      "nameEn": "Bachelor of Social Sciences (Honours) in Psychology and Bachelor of Education (Honours) (Early Childhood Education)",
+      "shortName": "BSocSc(Psy)&BEd(ECE)",
+      "funding": "UGC-funded",
+      "summary": "課程：心理學社會科學學士及幼兒教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8006"
+    },
+    {
+      "code": "JS8007",
+      "school": "eduhk",
+      "nameZh": "個人理財榮譽文學士及企業、會計與財務概論教育榮譽學士",
+      "nameEn": "Bachelor of Arts (Honours) in Personal Finance and Bachelor of Education (Honours) (Business, Accounting and Financial Studies)",
+      "shortName": "BA(PF)&BEd(BAFS)",
+      "funding": "UGC-funded",
+      "summary": "課程：個人理財文學士及企業、會計與財務概論教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8007"
+    },
+    {
+      "code": "JS8008",
+      "school": "eduhk",
+      "nameZh": "人工智能與教育科技榮譽理學士及資訊及通訊科技及小學科學教育榮譽學士",
+      "nameEn": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Information and Communication Technology and Primary Science)",
+      "shortName": "BSc(AIET)&BEd(ICT&PSci)",
+      "funding": "UGC-funded",
+      "summary": "課程：人工智能與教育科技理學士及資訊及通訊科技及小學科學教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8008"
+    },
+    {
+      "code": "JS8009",
+      "school": "eduhk",
+      "nameZh": "人工智能與教育科技榮譽理學士及小學數學教育榮譽學士",
+      "nameEn": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology and Bachelor of Education (Honours) (Primary Mathematics)",
+      "shortName": "BSc(AIET)&BEd(PM)",
+      "funding": "UGC-funded",
+      "summary": "課程：人工智能與教育科技理學士及小學數學教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8009"
+    },
+    {
+      "code": "JS8010",
+      "school": "eduhk",
+      "nameZh": "運動科學及教練榮譽理學士及體育教育榮譽學士",
+      "nameEn": "Bachelor of Science (Honours) in Sports Science and Coaching and Bachelor of Education (Honours) (Physical Education)",
+      "shortName": "BSc(SPSC)&BEd(PE)",
+      "funding": "UGC-funded",
+      "summary": "課程：運動科學及教練理學士及體育教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8010"
+    },
+    {
+      "code": "JS8011",
+      "school": "eduhk",
+      "nameZh": "綜合環境管理榮譽理學士及科學教育榮譽學士",
+      "nameEn": "Bachelor of Science (Honours) in Integrated Environmental Management and Bachelor of Education (Honours) (Science)",
+      "shortName": "BSc(IEM)&BEd(SCI)",
+      "funding": "UGC-funded",
+      "summary": "課程：綜合環境管理理學士及科學教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8011"
+    },
+    {
+      "code": "JS8012",
+      "school": "eduhk",
+      "nameZh": "社會學與社區研究榮譽社會科學學士及地理教育榮譽學士",
+      "nameEn": "Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Geography)",
+      "shortName": "BSocSc(SCS)&BEd(GEOG)",
+      "funding": "UGC-funded",
+      "summary": "課程：社會學與社區研究社會科學學士及地理教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8012"
+    },
+    {
+      "code": "JS8013",
+      "school": "eduhk",
+      "nameZh": "社會學與社區研究榮譽社會科學學士及小學人文科教育榮譽學士",
+      "nameEn": "Bachelor of Social Sciences (Honours) in Sociology and Community Studies and Bachelor of Education (Honours) (Primary Humanities)",
+      "shortName": "BSocSc(SCS)&BEd(PHM)",
+      "funding": "UGC-funded",
+      "summary": "課程：社會學與社區研究社會科學學士及小學人文科教育學士。結合名稱列明的兩項學士學位。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8013"
+    },
+    {
+      "code": "JS8507",
+      "school": "eduhk",
+      "nameZh": "幼兒教育高級文憑",
+      "nameEn": "Higher Diploma in Early Childhood Education",
+      "shortName": "HD(ECE)",
+      "funding": "UGC-funded",
+      "summary": "課程：幼兒教育高級文憑。屬高級文憑課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8507"
+    },
+    {
+      "code": "JS8651",
+      "school": "eduhk",
+      "nameZh": "心理學榮譽社會科學學士",
+      "nameEn": "Bachelor of Social Sciences (Honours) in Psychology",
+      "shortName": "BSocSc(Psy)",
+      "funding": "UGC-funded",
+      "summary": "課程：心理學社會科學學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8651"
+    },
+    {
+      "code": "JS8663",
+      "school": "eduhk",
+      "nameZh": "特殊教育榮譽文學士",
+      "nameEn": "Bachelor of Arts (Honours) in Special Education",
+      "shortName": "BA(SE)",
+      "funding": "UGC-funded",
+      "summary": "課程：特殊教育文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8663"
+    },
+    {
+      "code": "JS8674",
+      "school": "eduhk",
+      "nameZh": "數碼中國文化與傳意榮譽文學士",
+      "nameEn": "Bachelor of Arts (Honours) in Digital Chinese Culture and Communication",
+      "shortName": "BA(DCCC)",
+      "funding": "UGC-funded",
+      "summary": "課程：數碼中國文化與傳意文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8674"
+    },
+    {
+      "code": "JS8675",
+      "school": "eduhk",
+      "nameZh": "英語研究及數碼傳訊榮譽文學士",
+      "nameEn": "Bachelor of Arts (Honours) in English Studies and Digital Communication",
+      "shortName": "BA(ESDC)",
+      "funding": "UGC-funded",
+      "summary": "課程：英語研究及數碼傳訊文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8675"
+    },
+    {
+      "code": "JS8685",
+      "school": "eduhk",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士 (音樂)",
+      "nameEn": "Bachelor of Arts (Honours) in Creative and Digital Arts (Music)",
+      "shortName": "BA(CDA)-MU",
+      "funding": "UGC-funded",
+      "summary": "方向：音樂。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8685"
+    },
+    {
+      "code": "JS8686",
+      "school": "eduhk",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士 (視覺藝術)",
+      "nameEn": "Bachelor of Arts (Honours) in Creative and Digital Arts (Visual Arts)",
+      "shortName": "BA(CDA)-VA",
+      "funding": "UGC-funded",
+      "summary": "方向：視覺藝術。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8686"
+    },
+    {
+      "code": "JS8687",
+      "school": "eduhk",
+      "nameZh": "文化傳承教育與藝術管理榮譽文學士",
+      "nameEn": "Bachelor of Arts (Honours) in Heritage Education and Arts Management",
+      "shortName": "BA(HE&AM)",
+      "funding": "UGC-funded",
+      "summary": "課程：文化傳承教育與藝術管理文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8687"
+    },
+    {
+      "code": "JS8688",
+      "school": "eduhk",
+      "nameZh": "個人理財榮譽文學士",
+      "nameEn": "Bachelor of Arts (Honours) in Personal Finance",
+      "shortName": "BA(PF)",
+      "funding": "UGC-funded",
+      "summary": "課程：個人理財文學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8688"
+    },
+    {
+      "code": "JS8702",
+      "school": "eduhk",
+      "nameZh": "綜合環境管理榮譽理學士",
+      "nameEn": "Bachelor of Science (Honours) in Integrated Environmental Management",
+      "shortName": "BSc(IEM)",
+      "funding": "UGC-funded",
+      "summary": "課程：綜合環境管理理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8702"
+    },
+    {
+      "code": "JS8714",
+      "school": "eduhk",
+      "nameZh": "人工智能與教育科技榮譽理學士",
+      "nameEn": "Bachelor of Science (Honours) in Artificial Intelligence and Educational Technology",
+      "shortName": "BSc(AI&EdTech)",
+      "funding": "UGC-funded",
+      "summary": "課程：人工智能與教育科技理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8714"
+    },
+    {
+      "code": "JS8726",
+      "school": "eduhk",
+      "nameZh": "運動科學及教練榮譽理學士",
+      "nameEn": "Bachelor of Science (Honours) in Sports Science and Coaching",
+      "shortName": "BSc(SPSC)",
+      "funding": "UGC-funded",
+      "summary": "課程：運動科學及教練理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8726"
+    },
+    {
+      "code": "JS8727",
+      "school": "eduhk",
+      "nameZh": "言語病理學及復康榮譽理學士",
+      "nameEn": "Bachelor of Science (Honours) in Speech Pathology and Rehabilitation",
+      "shortName": "BSc(SPR)",
+      "funding": "UGC-funded",
+      "summary": "課程：言語病理學及復康理學士。屬學士課程。",
+      "url": "https://www.jupas.edu.hk/tc/programme/eduhk/JS8727"
+    }
+  ]
+}
